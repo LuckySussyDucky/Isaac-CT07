@@ -27,3 +27,4 @@ counter = 2
 while counter < 25:
     print(counter)
     counter += 2
+
