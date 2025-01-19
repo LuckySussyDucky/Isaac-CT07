@@ -66,4 +66,5 @@ else:
 
 # Task 5
 
-toppings = input("What toppings would u ? ")
+
+toppings = input("What toppings would you like on your pizza? ")
