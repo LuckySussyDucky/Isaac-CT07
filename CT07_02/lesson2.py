@@ -18,3 +18,7 @@ while counter < 21:
     print(counter)
     counter += 1
 
+counter = 0
+while counter < 21:
+    print(counter)
+    counter += 1
