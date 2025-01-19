@@ -73,4 +73,4 @@ while True:
         break
         print("")
     else:
-        toppings = toppings + "toppings2"
+        toppings = toppings + " " + toppings2
