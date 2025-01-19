@@ -43,3 +43,10 @@ while True:
 
 # Task 4
 
+while True:
+    print(counter)
+    counter += 1
+    if counter == 11:
+        break
+print
+
