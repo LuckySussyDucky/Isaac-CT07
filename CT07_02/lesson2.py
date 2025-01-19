@@ -16,4 +16,4 @@ for i in range(2,25,2):
 counter = 0
 while counter < 21:
     print(counter)
-    counter
+    counter += 1
