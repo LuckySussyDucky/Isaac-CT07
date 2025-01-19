@@ -53,3 +53,10 @@ print("YAY")
 
 # Task 4b
 
+while True:
+    print(counter)
+    counter += 1
+    if counter == 6:
+        break
+print("YAY")
+
