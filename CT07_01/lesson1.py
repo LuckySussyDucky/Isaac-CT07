@@ -50,6 +50,7 @@ if score >= 75:
     print("Your grade is A.")
 elif score >= 60:
     print("Your grade is B.")
-    
+elif score >= 50:
+    print("Your grade is A.")
 
 
