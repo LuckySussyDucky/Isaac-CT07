@@ -72,4 +72,4 @@ while True:
     if toppings2 == "end":
         break
     else:
-        stuff = "toppings" + ""
+        stuff += "toppings2"
