@@ -71,6 +71,6 @@ while True:
     toppings2 = input("What other toppings would you like on your pizza? ")
     if toppings2 == "end":
         break
-        print(" our pizza has")
+        print(" Your pizza has")
     else:
-        toppings = toppings + " " + toppings2 + " "
+        stuff = toppings + " " + toppings2 + " "
