@@ -45,3 +45,5 @@ print("Average score for ", student_name, " is: ", average_score)
 
 # Task 3
 
+score = int(input("What was your score? "))
+
