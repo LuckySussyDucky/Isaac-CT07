@@ -58,6 +58,6 @@ while counter <= 10:
     counter += 1
     if counter == 6:
         break
-    else:
-        print("YAY")
+else:
+    print("YAY")
 
