@@ -73,4 +73,4 @@ while True:
         break
         print("Your pizza has " + stuff + "and " + toppings + "!")
     else:
-        stuff = stuff + " " + toppings2 + " "
+        stuff = toppings + " " + toppings2 + " "
