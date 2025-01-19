@@ -48,5 +48,5 @@ while True:
     counter += 1
     if counter == 11:
         break
-print("")
+print("10")
 
