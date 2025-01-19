@@ -66,4 +66,4 @@ else:
 
 # Task 5
 
-toppings = int(input("What was your score for PSLE? "))
+toppings = input("What was your score for PSLE? ")
