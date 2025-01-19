@@ -52,6 +52,7 @@ elif score >= 60:
     print("Your grade is B.")
 elif score >= 50:
     print("Your grade is C.")
-el
+else:
+    print("")
 
 
