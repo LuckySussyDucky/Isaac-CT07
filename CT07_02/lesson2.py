@@ -63,3 +63,6 @@ while counter <= 10:
 else:
     print("YAY")
 
+
+# Task 5
+
