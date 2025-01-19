@@ -48,5 +48,8 @@ print("Average score for ", student_name, " is: ", average_score)
 score = int(input("What was your score for PSLE? "))
 if score >= 75:
     print("Your grade is A.")
+elif score >= 60:
+    print("Your grade is B.")
+    
 
 
