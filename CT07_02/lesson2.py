@@ -66,4 +66,4 @@ else:
 
 # Task 5
 
-toppings = input("What was your score for PSLE? ")
+toppings = input("What toppings would u ? ")
