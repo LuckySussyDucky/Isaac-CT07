@@ -66,3 +66,4 @@ else:
 
 # Task 5
 
+input()
