@@ -47,6 +47,6 @@ print("Average score for ", student_name, " is: ", average_score)
 
 score = int(input("What was your score for PSLE? "))
 if score :
-    print("Your grade is A")
+    print("Your grade is A.")
 
 
