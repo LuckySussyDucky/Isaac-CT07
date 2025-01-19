@@ -43,6 +43,7 @@ while True:
 
 # Task 4a
 
+counter = 1
 while True:
     print(counter)
     counter += 1
