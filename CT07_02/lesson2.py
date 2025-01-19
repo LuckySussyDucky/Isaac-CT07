@@ -79,7 +79,6 @@ while True:
 
 # Task 6
 
+questions = ["Am I the president of SG? Y/N", "Am I very skibidi ohio? Y/N", "Am I sigma? Y/N"]
 counter = 1
 while counter < 4:
-    
-    ["Am I the president of SG? Y/N"]
