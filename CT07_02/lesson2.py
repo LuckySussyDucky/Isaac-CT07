@@ -30,9 +30,9 @@ while counter < 25:
 
 # Task 3
 
-counter = 0
+count = 0
 while True:
-    print(counter)
-    counter += 1
+    print(count)
+    count += 1
     if counter == 5:
         break
