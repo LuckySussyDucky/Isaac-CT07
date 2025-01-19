@@ -53,11 +53,11 @@ print("YAY")
 
 # Task 4b
 
-while True:
+while counter <= 10:
     print(counter)
     counter += 1
     if counter == 6:
         break
-    elses
-print("YAY")
+    else:
+        print("YAY")
 
