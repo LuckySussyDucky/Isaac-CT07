@@ -81,4 +81,5 @@ while True:
 
 counter = 1
 while counter < 4:
-    input("Am I the president of SG? Y/N")
+    
+    ["Am I the president of SG? Y/N"]
