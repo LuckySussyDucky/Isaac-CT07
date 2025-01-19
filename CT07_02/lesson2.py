@@ -67,10 +67,11 @@ else:
 # Task 5
 
 toppings = input("What toppings would you like on your pizza? ")
+stuff = 'abc'
 while True:
     toppings2 = input("What other toppings would you like on your pizza? ")
     if toppings2 == "end":
         print("Your pizza has " + stuff + "and " + toppings + "!")
         break
     else:
-        stuff = toppings + ", " + toppings2 + ", "
+        stuff = an + ", " + toppings2 + ", "
