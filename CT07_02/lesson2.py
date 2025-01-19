@@ -66,6 +66,7 @@ else:
 
 # Task 5
 
+stuff = 1
 toppings = input("What toppings would you like on your pizza? ")
 while True:
     toppings2 = input("What other toppings would you like on your pizza? ")
