@@ -28,3 +28,5 @@ while counter < 25:
     print(counter)
     counter += 2
 
+# Task 3
+
