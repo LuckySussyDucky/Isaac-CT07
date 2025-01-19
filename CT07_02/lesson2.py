@@ -32,3 +32,8 @@ while counter < 25:
 
 for i in range(2,25,2):
     print(i)
+    
+counter = 0
+while counter < 21:
+    print(counter)
+    counter += 1
