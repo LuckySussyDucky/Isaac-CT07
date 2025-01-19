@@ -47,7 +47,7 @@ print("Average score for ", student_name, " is: ", average_score)
 
 score = int(input("What was your score for PSLE? "))
 if score > 100:
-    print("")
+    print("You are a liar")
 elif score >= 75:
     print("Your grade is A.")
 elif score >= 60:
