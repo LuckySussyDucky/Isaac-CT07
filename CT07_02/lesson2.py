@@ -13,4 +13,4 @@ for i in range(2,25,2):
 
 # Task 2
 
-counter
+counter = 0
