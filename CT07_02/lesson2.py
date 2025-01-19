@@ -30,9 +30,6 @@ while counter < 25:
 
 # Task 3
 
-for i in range(2,25,2):
-    print(i)
-
 counter = 0
 while True:
     print(counter)
