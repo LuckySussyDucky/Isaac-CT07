@@ -81,4 +81,4 @@ while True:
 
 counter = 1
 while counter < 4:
-    input()
+    input("")
