@@ -11,4 +11,4 @@ for i in range(1,31):
 for i in range(2,25,2):
     print(i)
 
-
+# Tasks 2
