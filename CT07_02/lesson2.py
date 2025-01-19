@@ -24,6 +24,6 @@ while counter < 31:
     counter += 1
 
 counter = 2
-while counter < 21:
+while counter < 25:
     print(counter)
-    counter += 1
+    counter += 2
