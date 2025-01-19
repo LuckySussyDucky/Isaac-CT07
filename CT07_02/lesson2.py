@@ -72,6 +72,5 @@ while True:
     if toppings2 == "end":
         print("Your pizza has " + stuff + "and " + toppings + "!")
         break
-        
     else:
         stuff = toppings + " " + toppings2 + " "
