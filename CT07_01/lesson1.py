@@ -53,6 +53,6 @@ elif score >= 60:
 elif score >= 50:
     print("Your grade is C.")
 else:
-    print("")
+    print("You failed really badly womp womp!")
 
 
