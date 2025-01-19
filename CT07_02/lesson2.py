@@ -79,3 +79,6 @@ while True:
 
 # Task 6
 
+counter = 1
+while counter < 4:
+    input()
