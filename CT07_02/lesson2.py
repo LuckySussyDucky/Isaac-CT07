@@ -30,7 +30,7 @@ while counter < 25:
 
 # Task 3
 
-counter = 0
+counter = 1
 while True:
     print(counter)
     counter += 1
