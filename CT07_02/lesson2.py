@@ -79,6 +79,34 @@ while True:
 
 # Task 6
 
-questions = ["Am I the president of SG? Y/N", "Am I very skibidi ohio? Y/N", "Am I sigma? Y/N"]
-counter = 1
-while counter < 4:
+questions = "What is 1 + 1? "
+answer = 2 #integer type --> data type eg, integer, double, float ,string (str)
+UserAnswer = 0
+while UserAnswer != answer:
+    UserAnswer = int(input(questions))
+    if UserAnswer == answer:
+        print("YAY! You got it correct!")
+        break
+    else:
+        print("You got it wrong!")
+
+# answer = input("What is the colour of the Orange?") 
+# while (answer != "orange"):
+#     print("answer wrong, try again")
+#     answer = input("What is the colour of the Orange?") 
+
+# print("answer correct")
+
+QuestionAnswer = ["What is 1 + 1? ", "2"
+                    "What is 3 - 1? ", "2"
+                    "What is 2 - 0? ", "2"
+                    ]
+for i in range(0, len(QuestionAnswer), 2):
+    questions = QuestionAnswer(i)
+    answer = QuestionAnswer(i + 1)
+    UserAnswer = input(questions)
+    while UserAnswer != answer:
+        print("You got it wrong!")
+        UserInput = input(questions)
+    print("YAY! You got it correct!")
+    
