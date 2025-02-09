@@ -45,3 +45,5 @@ for i in range(totalQuestion):
         if lives == 0:
             print("GO SEE MS TAN FOR ICE CREAM! NOW!")
             break
+if lives > 0:
+    print
