@@ -34,4 +34,4 @@ for i in range(totalQuestion):
     num1 = random.randint(2, 20)
     num2 = random.randint(2, 20)
     while lives > 0:
-        answer = input(f"What is")
+        answer = input(f"What is {num1}")
