@@ -99,7 +99,7 @@ for i in range(len(menu)):
 
 FoodToEat = input("What would you like to eat? ")
 food = ""
-while food in menu:
+while i in range:
     if food == FoodToEat:
         print("Yes, we have that. Anything else?")
         break
