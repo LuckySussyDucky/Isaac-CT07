@@ -78,3 +78,5 @@ country = ""
 while country != "end":
     country = input("What country would you like to visit? ")
     countriesIwouldLiketoVisit.append(country)
+for i in range(len(planet)):
+    print(planet[i])
