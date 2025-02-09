@@ -31,3 +31,4 @@ for i in range(len(planet)):
 
 # Task 1c
 
+planet.insert()
