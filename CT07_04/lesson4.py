@@ -41,4 +41,4 @@ planet.insert(3, "Lalaland -> new planet discovered")
 for i in range(len(planet)):
     print(planet[i])
 
-planet.pop
+planet.pop[5]
