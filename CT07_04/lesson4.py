@@ -63,7 +63,6 @@ planet = [
     "Neptune",
 ]
 for i in range(len(planet)):
-    planet[i]
     if planet == "Earth":
         print("Earth: This is my home!")
     elif planet == "Lalaland":
