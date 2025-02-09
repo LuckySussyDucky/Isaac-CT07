@@ -50,3 +50,14 @@ for i in range(len(planet)):
 
 
 # Task 2
+
+planet = [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+]
