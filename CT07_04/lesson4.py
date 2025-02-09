@@ -21,4 +21,4 @@ print(planet[5])
 print(planet[6])
 print(planet[7])
 
-print
+print(len(planet))
