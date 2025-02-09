@@ -97,4 +97,4 @@ for i in range(len(menu)):
 
 # Task 4b
 
-FoodToEat = input()
+FoodToEat = input("What would")
