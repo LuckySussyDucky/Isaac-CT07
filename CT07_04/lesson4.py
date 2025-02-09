@@ -37,3 +37,4 @@ planet[3] = "Mars -> defeated"
 for i in range(len(planet)):
     print(planet[i])
 
+
