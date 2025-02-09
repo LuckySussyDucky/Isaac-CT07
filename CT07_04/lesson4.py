@@ -21,8 +21,6 @@ planet = [
 # print(planet[6])
 # print(planet[7])
 
-for i in range(len(planet)):
-    print(planet[i])
 
 # Task 1b
 
