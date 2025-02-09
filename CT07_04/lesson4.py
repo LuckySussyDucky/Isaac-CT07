@@ -4,5 +4,7 @@ print("Hello from lesson 4")
 
 planet = [
     "Mercury",
-    "Venus"
+    "Venus",
+    "Earth",
+    
 ]
