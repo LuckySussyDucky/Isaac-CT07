@@ -41,3 +41,5 @@ for i in range(totalQuestion):
         else:
             lives = lives - 1
             print("Wrong! One live was deducted!")
+        if lives == 0:
+            print
