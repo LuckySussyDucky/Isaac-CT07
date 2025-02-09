@@ -42,4 +42,4 @@ for i in range(totalQuestion):
             lives = lives - 1
             print("Wrong! One live was deducted!")
         if lives == 0:
-            print
+            print("GO SEE MS TAN ")
