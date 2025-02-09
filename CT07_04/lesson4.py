@@ -25,3 +25,5 @@ for i in range(len(planet)):
     print(planet[i])
 
 # Task 1b
+
+planet = 
