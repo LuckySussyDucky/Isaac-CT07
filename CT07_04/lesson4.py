@@ -67,4 +67,4 @@ for i in range(len(planet)):
     if planet == "Earth":
         print("Earth: This is my home!")
     elif planet == "Lalaland":
-        print("Lalaland: ")
+        print("Lalaland: This is what")
