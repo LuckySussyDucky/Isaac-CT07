@@ -31,13 +31,13 @@ for i in range(len(planet)):
 
 # Task 1c
 
-planet.insert(8, "Pluto -> new planet dis")
+planet.insert(8, "Pluto -> new planet discovered")
 
 planet[3] = "Mars -> defeated"
 for i in range(len(planet)):
     print(planet[i])
 
-planet.insert(3, "Lalaland")
+planet.insert(3, "Lalaland -")
 planet[3] = "Mars -> defeated"
 for i in range(len(planet)):
     print(planet[i])
