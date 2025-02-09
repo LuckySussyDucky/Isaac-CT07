@@ -43,3 +43,4 @@ for i in range(totalQuestion):
             print("Wrong! One live was deducted!")
         if lives == 0:
             print("GO SEE MS TAN FOR ICE CREAM! NOW!")
+            break
