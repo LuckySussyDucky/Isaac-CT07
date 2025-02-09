@@ -32,4 +32,5 @@ totalQuestion = 15
 lives = 3
 for i in range(totalQuestion):
     num1 = random.randint(2, 20)
-num2 = random.randint(2, 20)
+    num2 = random.randint(2, 20)
+    
