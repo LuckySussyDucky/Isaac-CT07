@@ -73,3 +73,4 @@ for i in range(len(planet)):
 
 # Task 3
 
+count
