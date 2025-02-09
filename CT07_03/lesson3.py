@@ -37,4 +37,7 @@ for i in range(totalQuestion):
     while lives > 0:
         answer = input(f"What is {num1} x {num2}? ")
         if correctAnswer == answer:
-            print("Correct! Let's move i")
+            print("Correct! Let's move on!")
+        else:
+            lives = lives - 1
+            print()
