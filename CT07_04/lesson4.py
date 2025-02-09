@@ -47,3 +47,6 @@ for i in range(len(planet)):
 planet.pop(5)
 for i in range(len(planet)):
     print(planet[i])
+
+
+#b
