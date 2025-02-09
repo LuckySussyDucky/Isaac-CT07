@@ -36,3 +36,5 @@ for i in range(totalQuestion):
     correctAnswer = num1 * num2
     while lives > 0:
         answer = input(f"What is {num1} x {num2}? ")
+        if correctAnswer == answer:
+            
