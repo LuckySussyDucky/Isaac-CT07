@@ -90,4 +90,4 @@ food = ""
 while food != "end":
     food = input("What food should you add to the menu? ")
     menu.append(food)
-menu.pop(l)
+menu.pop(len(menu)-1)
