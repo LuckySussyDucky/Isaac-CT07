@@ -73,6 +73,8 @@ for i in range(len(planet)):
 
 # Task 3
 
-countriesIwouldLiketoVisit = [
-
-]
+countriesIwouldLiketoVisit = []
+country = ""
+while country != "end":
+    country = input("What country would you like to visit? ")
+    
