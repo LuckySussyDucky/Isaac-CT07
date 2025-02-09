@@ -27,4 +27,4 @@ print("It took you", days, "days to get at least $100!")
 
 
 # Task 3 
-num
+num1 = random.randint
