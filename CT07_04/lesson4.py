@@ -26,4 +26,4 @@ for i in range(len(planet)):
 
 # Task 1b
 
-planet[3]
+planet[3] = ""
