@@ -35,7 +35,7 @@ for i in range(totalQuestion):
     num2 = random.randint(2, 20)
     correctAnswer = num1 * num2
     while lives > 0:
-        answer = input(f"What is {num1} x {num2}? ")
+        answer = int(input(f"What is {num1} x {num2}? "))
         if correctAnswer == answer:
             print("Correct! Let's move on!")
         else:
