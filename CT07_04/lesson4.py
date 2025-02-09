@@ -85,6 +85,4 @@ for i in range(len(countriesIwouldLiketoVisit)):
 
 # Task 4a
 
-meni =[
-    
-]
+menu = []
