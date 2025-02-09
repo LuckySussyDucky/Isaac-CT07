@@ -101,4 +101,4 @@ FoodToEat = input("What would you like to eat? ")
 food = ""
 while food in menu:
     if food == FoodToEat:
-        print("Yes, we have that")
+        print("Yes, we have that. Anything else?")
