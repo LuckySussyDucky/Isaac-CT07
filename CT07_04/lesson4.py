@@ -32,3 +32,8 @@ for i in range(len(planet)):
 # Task 1c
 
 planet.insert(8, "Pluto")
+
+planet[3] = "Mars -> defeated"
+for i in range(len(planet)):
+    print(planet[i])
+
