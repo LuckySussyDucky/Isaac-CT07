@@ -98,7 +98,6 @@ for i in range(len(menu)):
 # Task 4b
 
 FoodToEat = input("What would you like to eat? ")
-i = 0
 while i in range(len(menu)):
     if FoodToEat == menu[i]:
         print("Yes, we have that. Anything else?")
