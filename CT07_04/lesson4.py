@@ -104,4 +104,4 @@ while food in menu:
         print("Yes, we have that. Anything else?")
         break
     else:
-        print("Sorry (but not sorry) ")
+        print("Sorry (but not sorry) we don't have that")
