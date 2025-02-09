@@ -41,6 +41,7 @@ planet.insert(3, "Lalaland -> new planet discovered")
 for i in range(len(planet)):
     print(planet[i])
 
+# Task 1d
 planet.pop(5)
 for i in range(len(planet)):
     print(planet[i])
