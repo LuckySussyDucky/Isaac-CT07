@@ -22,3 +22,4 @@ print(planet[6])
 print(planet[7])
 
 print(len(planet))
+print(planet)
