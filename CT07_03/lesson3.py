@@ -46,4 +46,4 @@ for i in range(totalQuestion):
             print("GO SEE MS TAN FOR ICE CREAM! NOW!")
             break
 if lives > 0:
-    print("Congrats!")
+    print("Congrats! You passed!")
