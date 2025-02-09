@@ -8,5 +8,6 @@ planet = [
     "Earth",
     "Mars",
     "Jupiter",
-    
+    "Saturn",
+    "UR"
 ]
