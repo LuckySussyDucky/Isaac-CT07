@@ -12,4 +12,4 @@ planet = [
     "Uranus",
     "Neptune",
 ]
-print(planet[0])
+print(planet[])
