@@ -10,5 +10,5 @@ planet = [
     "Jupiter",
     "Saturn",
     "Uranus",
-    "Neptune"
+    "Neptune",
 ]
