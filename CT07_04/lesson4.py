@@ -102,4 +102,6 @@ food = ""
 while food in menu:
     if food == FoodToEat:
         print("Yes, we have that. Anything else?")
-    
+        break
+    else:
+        
