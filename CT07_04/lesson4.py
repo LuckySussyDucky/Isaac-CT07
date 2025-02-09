@@ -65,4 +65,5 @@ planet = [
 for i in range(len(planet)):
     planet[i]
     if planet == "Earth":
-        print("Earth: Th")
+        print("Earth: This is my home!")
+    e
