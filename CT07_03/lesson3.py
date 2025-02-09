@@ -28,6 +28,8 @@ print("It took you", days, "days to get at least $100!")
 
 # Task 3 
 
+totalQuestion = 15
 lives = 3
-num1 = random.randint(2, 20)
+for i in range(totalQuestion):
+    num1 = random.randint(2, 20)
 num2 = random.randint(2, 20)
