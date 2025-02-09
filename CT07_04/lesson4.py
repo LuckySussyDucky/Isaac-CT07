@@ -6,5 +6,5 @@ planet = [
     "Mercury",
     "Venus",
     "Earth",
-    
+    "Mars"
 ]
