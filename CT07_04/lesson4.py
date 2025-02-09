@@ -17,4 +17,6 @@ print(planet[1])
 print(planet[2])
 print(planet[3])
 print(planet[4])
-v
+print(planet[0])
+print(planet[0])
+print(planet[0])
