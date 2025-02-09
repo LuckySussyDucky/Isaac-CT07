@@ -33,6 +33,6 @@ lives = 3
 for i in range(totalQuestion):
     num1 = random.randint(2, 20)
     num2 = random.randint(2, 20)
-    correct
+    correctAnswer = num1 * num2
     while lives > 0:
         answer = input(f"What is {num1} x {num2}? ")
