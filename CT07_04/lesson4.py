@@ -98,3 +98,7 @@ for i in range(len(menu)):
 # Task 4b
 
 FoodToEat = input("What would you like to eat? ")
+food = ""
+while food in menu:
+    if food == FoodToEat:
+        print("")
