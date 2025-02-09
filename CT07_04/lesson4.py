@@ -106,6 +106,6 @@ while True:
         else:
             print("Sorry (but not sorry) we don't have that.")
             break
-        if FoodToEat == "end":
-            print("Okie! We will get your order.")
-            break
+    if FoodToEat == "end":
+        print("Okie! We will get your order.")
+        break
