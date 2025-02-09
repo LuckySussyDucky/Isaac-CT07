@@ -12,3 +12,4 @@ planet = [
     "Uranus",
     "Neptune",
 ]
+print
