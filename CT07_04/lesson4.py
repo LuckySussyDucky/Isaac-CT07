@@ -55,6 +55,7 @@ planet = [
     "Mercury",
     "Venus",
     "Earth",
+    "Lalaland"
     "Mars",
     "Jupiter",
     "Saturn",
