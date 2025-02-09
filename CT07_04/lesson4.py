@@ -42,3 +42,5 @@ for i in range(len(planet)):
     print(planet[i])
 
 planet.pop[5]
+for i in range(len(planet)):
+    print(planet[i])
