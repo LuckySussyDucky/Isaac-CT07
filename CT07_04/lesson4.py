@@ -102,8 +102,9 @@ while True:
     FoodToEat = input("What would you like to eat? ")
     if FoodToEat == menu[i]:
         print("Yes, we have that. Anything else?")
-        break
     else:
         print("Sorry (but not sorry) we don't have that.")
         break
-
+    if FoodToEat == "end":
+        print("Okie! We will get your order.")
+        break
