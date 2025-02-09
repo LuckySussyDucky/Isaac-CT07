@@ -77,4 +77,4 @@ countriesIwouldLiketoVisit = []
 country = ""
 while country != "end":
     country = input("What country would you like to visit? ")
-    countriesIwouldLiketoVisit.append
+    countriesIwouldLiketoVisit.append()
