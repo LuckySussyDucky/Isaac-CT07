@@ -100,7 +100,7 @@ for i in range(len(menu)):
 FoodToEat = input("What would you like to eat? ")
 food = ""
 while i in range(len(FoodToEat)):
-    if F == FoodToEat:
+    if FoodToEat[i] == FoodToEat:
         print("Yes, we have that. Anything else?")
         break
     else:
