@@ -97,9 +97,9 @@ for i in range(len(menu)):
 
 # Task 4b
 
-FoodToEat = input("What would you like to eat? ")
 i = 0
 while True:
+    FoodToEat = input("What would you like to eat? ")
     if FoodToEat == menu[i]:
         print("Yes, we have that. Anything else?")
         break
