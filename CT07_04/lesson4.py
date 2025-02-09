@@ -21,5 +21,5 @@ print(planet[5])
 print(planet[6])
 print(planet[7])
 
-print(len(planet))
-print(planet[i])
+for i in range(len(planet)):
+    print(planet[i])
