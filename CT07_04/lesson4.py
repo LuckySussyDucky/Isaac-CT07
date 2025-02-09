@@ -87,4 +87,5 @@ for i in range(len(countriesIwouldLiketoVisit)):
 
 menu = []
 food = ""
-w
+while food != "end":
+    food = input
