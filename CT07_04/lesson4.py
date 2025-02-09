@@ -37,7 +37,7 @@ planet[3] = "Mars -> defeated"
 for i in range(len(planet)):
     print(planet[i])
 
-planet.insert(3, "Lalaland -")
+planet.insert(3, "Lalaland -> new planet discovered")
 planet[3] = "Mars -> defeated"
 for i in range(len(planet)):
     print(planet[i])
