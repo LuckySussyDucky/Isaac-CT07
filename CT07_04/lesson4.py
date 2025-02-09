@@ -95,3 +95,4 @@ for i in range(len(menu)):
     print("- ", menu[i])
 
 
+# Task 4b
