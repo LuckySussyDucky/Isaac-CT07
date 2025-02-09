@@ -40,4 +40,4 @@ for i in range(totalQuestion):
             print("Correct! Let's move on!")
         else:
             lives = lives - 1
-            print("Wrong! ")
+            print("Wrong! One live was deducted!")
