@@ -12,4 +12,9 @@ planet = [
     "Uranus",
     "Neptune",
 ]
+print(planet[9
+             ])
+print(planet[0])
+print(planet[0])
+print(planet[0])
 print(planet[0])
