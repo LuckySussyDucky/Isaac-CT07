@@ -88,4 +88,4 @@ for i in range(len(countriesIwouldLiketoVisit)):
 menu = []
 food = ""
 while food != "end":
-    food = input
+    food = input("What food should")
