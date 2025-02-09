@@ -1,5 +1,5 @@
 import time
-import radom
+import random
 print("Hello from lesson 3")
 
 
