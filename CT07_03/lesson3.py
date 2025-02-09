@@ -31,8 +31,8 @@ print("It took you", days, "days to get at least $100!")
 totalQuestion = 5
 lives = 3
 for i in range(totalQuestion):
-    num1 = random.randint(2, 20)
-    num2 = random.randint(2, 20)
+    num1 = random.randint(2, 10)
+    num2 = random.randint(2, 10)
     correctAnswer = num1 * num2
     while lives > 0:
         answer = int(input(f"What is {num1} x {num2}? "))
