@@ -24,3 +24,7 @@ while savings < 100:
     if savings >= 100:
         break
 print("It took you", days, "days to get at least $100!")
+
+
+# Task 3 
+num
