@@ -86,3 +86,5 @@ for i in range(len(countriesIwouldLiketoVisit)):
 # Task 4a
 
 menu = []
+food = ""
+w
