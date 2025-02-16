@@ -38,7 +38,7 @@ print(sum)
 print(int(average))
 
 
-# Task 4 
+# Task 4a 
 
 namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
             "Sophia", "Lucas", "Mia", "Aiden"
