@@ -103,3 +103,4 @@ else:
 
 maximum = max(powers)
 minimum = min(powers)
+sum = sum
