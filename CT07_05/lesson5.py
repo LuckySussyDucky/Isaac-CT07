@@ -6,6 +6,7 @@ print("Hello from lesson 5")
 numbers = [
 ]
 counter = 100
-num = random.randint(1, 1000)
-numbers.append(num)
-
+while counter != 0:
+    num = random.randint(1, 1000)
+    numbers.append(num)
+    counter = counter - 1
