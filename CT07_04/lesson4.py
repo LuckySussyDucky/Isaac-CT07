@@ -97,15 +97,15 @@ for i in range(len(menu)):
 
 # Task 4b
 
-i = 0
-while True:
-    FoodToEat = input("What would you like to eat? ")
-    for i in range(len(menu)):
-        if FoodToEat == menu[i]:
-            print("Yes, we have that. Anything else?")
-        else:
-            i += 1
-    print("Sorry (but not sorry) we don't have that.")
-    if FoodToEat == "end":
-        print("Okie! We will get your order.")
-        break
+# i = 0
+# while True:
+#     FoodToEat = input("What would you like to eat? ")
+#     for i in range(len(menu)):
+#         if FoodToEat == menu[i]:
+#             print("Yes, we have that. Anything else?")
+#         else:
+#             i += 1
+#     print("Sorry (but not sorry) we don't have that.")
+#     if FoodToEat == "end":
+#         print("Okie! We will get your order.")
+#         break
