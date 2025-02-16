@@ -5,4 +5,4 @@ print("Hello from lesson 5")
 
 numbers = [
 ]
-
+num = random.randint
