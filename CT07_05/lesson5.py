@@ -73,7 +73,7 @@ pokemon = [
 ]
 
 powers = [
-    55, 84, 49, 48, 45,
+    55, 85, 50, 48, 45,
     45, 52, 55, 110, 110,
     85, 65, 134, 130, 110,
     50, 125, 65, 110, 83
@@ -85,7 +85,7 @@ pokemon2 = random.choice(pokemon)
 
 while pokemon1 == pokemon2:
     pokemon2 = random.choice(pokemon)
-    
+
 counter2 = pokemon.index(pokemon2)
 power2 = powers[counter2]
 
