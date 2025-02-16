@@ -28,4 +28,5 @@ print(numbers)
 
 # Task 3 
 
-maximum = max(numbers)
+maximum = max(numbers2)
+min
