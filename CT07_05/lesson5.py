@@ -29,4 +29,4 @@ print(numbers)
 # Task 3 
 
 maximum = max(numbers2)
-minimum = nim(numbers2)
+minimum = min(numbers2)
