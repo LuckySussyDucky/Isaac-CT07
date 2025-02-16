@@ -87,4 +87,4 @@ counter2 = pokemon.index(pokemon2)
 power2 = powers[counter2]
 
 if power1 > power2:
-    print
+    print(pokemon1, i)
