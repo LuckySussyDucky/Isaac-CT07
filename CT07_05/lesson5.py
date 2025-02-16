@@ -89,4 +89,4 @@ power2 = powers[counter2]
 if power1 > power2:
     print(pokemon1, "is the winner!")
 else:
-    print
+    print(pokemon2, )
