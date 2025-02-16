@@ -79,5 +79,7 @@ powers = [
     50, 125, 65, 110, 83
 ]
 pokemon1 = random.choice(pokemon)
-counter1 = pokemon.index()
+counter1 = pokemon.index(pokemon1)
+
+
 pokemon2 = random.choice(pokemon)
