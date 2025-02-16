@@ -89,7 +89,8 @@ while pokemon1 == pokemon2:
     pokemon2 = random.choice(pokemon)
     counter2 = pokemon.index(pokemon2)
     power2 = powers[counter2]
-    print(pokemon1, "power", power1, "Versus", pokemon2, "power", power2)
+
+print(pokemon1, "power", power1, "Versus", pokemon2, "power", power2)
 
 if power1 > power2:
     print(pokemon1, "is the winner!")
