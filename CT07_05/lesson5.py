@@ -38,3 +38,4 @@ print(sum)
 print(int(average))
 
 
+# Task 4 
