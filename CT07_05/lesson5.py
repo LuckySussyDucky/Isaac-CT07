@@ -103,7 +103,7 @@ else:
 
 maximum = max(powers)
 minimum = min(powers)
-sum = sum(powers)
+total = sum(powers)
 average = sum / len(powers)
 print(maximum)
 print(minimum)
