@@ -50,4 +50,4 @@ counter = heightlist.index(maximum)
 namelist[8]
 print(maximum)
 print(counter)
-pront
+print(name)
