@@ -59,3 +59,5 @@ minimum = min(heightlist)
 counter = heightlist.index(minimum)
 name = namelist[counter]
 print(minimum)
+print(counter)
+print(name)
