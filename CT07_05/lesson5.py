@@ -61,3 +61,6 @@ name = namelist[counter]
 print(minimum)
 print(counter)
 print(name)
+
+
+# Task 5
