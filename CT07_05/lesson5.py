@@ -67,9 +67,8 @@ print(name)
 
 pokemons = [
     "Pikachu", "Charizard", "Bulbasaur", "Squirtle", "Jigglypuff",
-    "Meowth", "Psyduck", "Eevee", "Snorlax","Mewtwo",
-    "Lapras", "Gengar", "Dragonite", "Machamp",
-    "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
+    "Meowth", "Psyduck", "Eevee", "Snorlax", "Mewtwo",
+    "Lapras", "Gengar", "Dragonite", "Machamp", "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
     "Electabuzz"
 ]
 
