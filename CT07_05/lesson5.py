@@ -101,4 +101,5 @@ else:
 
 # Extra Task 1
 
-maximum = max
+maximum = max(powers)
+minimum
