@@ -47,7 +47,7 @@ heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 
 maximum = max(heightlist)
 counter = heightlist.index(maximum)
-namelist[8]
+name = namelist[8]
 print(maximum)
 print(counter)
 print(name)
