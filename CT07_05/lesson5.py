@@ -65,7 +65,7 @@ print(name)
 
 # Task 5
 
-pokemons = [
+pokemon = [
     "Pikachu", "Charizard", "Bulbasaur", "Squirtle", "Jigglypuff",
     "Meowth", "Psyduck", "Eevee", "Snorlax", "Mewtwo",
     "Lapras", "Gengar", "Dragonite", "Machamp", "Arcanine", 
@@ -78,6 +78,6 @@ powers = [
     85, 65, 134, 130, 110,
     50, 125, 65, 110, 83
 ]
-pokemon1 = random.choice(pokemons)
+pokemon1 = random.choice(pokemon)
 counter1 = pokemon.index
-pokemon2 = random.choice(pokemons)
+pokemon2 = random.choice(pokemon)
