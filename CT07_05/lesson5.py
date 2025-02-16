@@ -54,4 +54,4 @@ print(name)
 
 # Task 4b
 
-minimum = min()
+minimum = min(heightlist)
