@@ -102,4 +102,4 @@ else:
 # Extra Task 1
 
 maximum = max(powers)
-minimum
+minimum = min(powers)
