@@ -66,7 +66,8 @@ print(name)
 # Task 5
 
 pokemons = [
-    "Pikachu", "Charizard", "Bulbasaur", "Squirtle","Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
+    "Pikachu", "Charizard", "Bulbasaur", "Squirtle", "Jigglypuff",
+    "Meowth", "Psyduck", "Eevee", "Snorlax",
     "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
     "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
     "Electabuzz"
