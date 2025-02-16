@@ -46,4 +46,4 @@ namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
 heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 
 maximum = max(heightlist)
-heightlist.index(maximum)
+counterheightlist.index(maximum)
