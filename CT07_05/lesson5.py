@@ -17,9 +17,9 @@ print(numbers)
 
 numbers = [
 ]
-counter = 10
+counter = 100
 while counter != 0:
-    num = random.randint(1, 1)
+    num = random.randint(1, 1000)
     if num not in numbers:
         numbers.append(num)
         counter = counter - 1
