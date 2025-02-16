@@ -80,6 +80,6 @@ powers = [
 ]
 pokemon1 = random.choice(pokemon)
 counter1 = pokemon.index(pokemon1)
-power = powers[]
+power1 = powers[counter1]
 
 pokemon2 = random.choice(pokemon)
