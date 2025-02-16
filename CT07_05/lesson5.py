@@ -104,3 +104,4 @@ else:
 maximum = max(powers)
 minimum = min(powers)
 sum = sum(powers)
+average = sum / len(powers)
