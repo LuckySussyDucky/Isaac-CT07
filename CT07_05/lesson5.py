@@ -36,3 +36,5 @@ print(maximum)
 print(minimum)
 print(sum)
 print(int(average))
+
+
