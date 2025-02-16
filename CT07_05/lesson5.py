@@ -19,7 +19,7 @@ numbers = [
 ]
 counter = 10
 while counter != 0:
-    num = random.randint(1, 100)
+    num = random.randint(1, 1)
     if num not in numbers:
         numbers.append(num)
         counter = counter - 1
