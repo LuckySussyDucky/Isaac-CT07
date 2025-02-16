@@ -80,3 +80,4 @@ powers = [
     50, 125, 65, 110, 83
 ]
 pokemon1 = random.choice(pokemons)
+pokemon2 = random.choice(pokemons)
