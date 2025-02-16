@@ -7,4 +7,4 @@ numbers = [
 ]
 counter = 100
 num = random.randint(1, 1000)
-
+numbers.append(num)
