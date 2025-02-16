@@ -29,4 +29,4 @@ print(numbers)
 # Task 3 
 
 maximum = max(numbers2)
-min
+minimum = nu
