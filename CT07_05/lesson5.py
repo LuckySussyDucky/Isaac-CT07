@@ -24,3 +24,6 @@ while counter != 0:
         numbers.append(num)
         counter = counter - 1
 print(numbers)
+
+
+# Task 3 
