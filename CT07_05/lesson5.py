@@ -31,4 +31,4 @@ print(numbers)
 maximum = max(numbers2)
 minimum = min(numbers2)
 sum = sum(numbers2)
-average = sum
+average = sum / len(numbers2)
