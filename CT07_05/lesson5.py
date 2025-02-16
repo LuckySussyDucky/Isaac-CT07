@@ -56,4 +56,4 @@ print(name)
 # Task 4b
 
 minimum = min(heightlist)
-counter = heightlost
+counter = heightlist.index(minimum)
