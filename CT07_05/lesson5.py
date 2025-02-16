@@ -5,4 +5,5 @@ print("Hello from lesson 5")
 
 numbers = [
 ]
+counter = 100
 num = random.randint(1, 1000)
