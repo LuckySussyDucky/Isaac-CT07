@@ -87,7 +87,7 @@ counter2 = pokemon.index(pokemon2)
 power2 = powers[counter2]
 if pokemon1 == pokemon2:
     print(pokemon1, "power", power1, "Versus", pokemon2, "power", power2)
-    print("It")
+    print("It is the same pokemon!")
 
 if power1 > power2:
     print(pokemon1, "is the winner!")
