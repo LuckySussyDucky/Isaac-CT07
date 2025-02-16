@@ -17,7 +17,7 @@ print(numbers)
 
 numbers = [
 ]
-counter = 100
+counter = 10
 while counter != 0:
     num = random.randint(1, 100)
     if num not in numbers:
