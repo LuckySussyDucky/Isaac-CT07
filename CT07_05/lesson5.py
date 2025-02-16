@@ -28,4 +28,4 @@ print(numbers)
 
 # Task 3 
 
-maxi
+maximum = max(numbers)
