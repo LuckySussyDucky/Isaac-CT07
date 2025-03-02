@@ -119,7 +119,7 @@ print(nestedList)
 
 students = [
 ]
-student1 = ["john", "88460638", "john.yeo@gmail.com"
+student1 = ["john", "88460638", "Soccer"
 ]
 student2 = ["jared", "80584155", "Nerd Club"
 ]
