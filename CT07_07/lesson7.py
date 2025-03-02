@@ -128,4 +128,6 @@ student3 = ["zhi wei", "97426101", "Goodminton"
 students = student1 + student2 + student3
 for student in students:
     for stuff in student:
+
         
+        print
