@@ -125,4 +125,4 @@ student2 = ["jared", "80584155", "Nerd Club"
 ]
 student3 = ["zhi wei", "97426101", "Goodminton"
 ]
-student1.append()
+students = student
