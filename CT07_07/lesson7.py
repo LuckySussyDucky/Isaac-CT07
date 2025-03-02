@@ -91,5 +91,5 @@ allNum = num1 + num2
 for num in allNum:
     if num % 2 == 0:
         evenNum.append(num)
-print(evenNum)
+print(sorted(evenNum))
 
