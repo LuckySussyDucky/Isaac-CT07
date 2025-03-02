@@ -74,3 +74,4 @@ for fruit in fruit1:
     for fruits in fruit2:
         if fruit not in unique:
             unique.append(fruit)
+print uni
