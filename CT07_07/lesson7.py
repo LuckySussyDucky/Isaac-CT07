@@ -62,3 +62,9 @@ for fruit in fruit1:
         if fruit == fruits:
             commonFruits.append(fruit)
 print(commonFruits)
+
+
+# Task 6
+
+list1 = ["Apple", "Banana", "Cherry", "Cherry"]
+list2 = ["Cherry", "Durian", "Durian", "Figs"]
