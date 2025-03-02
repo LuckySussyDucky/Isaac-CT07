@@ -68,12 +68,10 @@ print(commonFruits)
 
 fruit1 = ["Apple", "Banana", "Cherry", "Cherry"]
 fruit2 = ["Cherry", "Durian", "Durian", "Figs"]
-allFruits = [
-]
 unique = [
 ]
-for fruit in allFruits:
-    # for fruits in fruit2:
-    if fruit not in unique:
-        unique.append(fruit)
+for fruit in fruit1:
+    for fruits in fruit2:
+        if fruit not in unique:
+            unique.append(fruit)
 print(unique)
