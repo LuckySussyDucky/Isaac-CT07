@@ -51,7 +51,6 @@ print(fruits[lenH:])
 # ]
 # student1.append()
 
-
 # Task 5
 
 fruit1 = ["Apple", "Banana", "Cherry", "Durian"]
