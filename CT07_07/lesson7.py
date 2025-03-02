@@ -123,6 +123,6 @@ student1 = ["john", "88460638", "john.yeo@gmail.com"
 ]
 student2 = ["jared", "80584155", "jared.pak@gmail.com"
 ]
-student3 = ["zhi wei", "97426101", "tan.zhiwei@gmail.com"
+student3 = ["zhi wei", "97426101", "Goodminton"
 ]
 student1.append()
