@@ -114,3 +114,15 @@ nestedList = [
 for i in range(0, len(students), size):
     nestedList.append(students[i:i + size])
 print(nestedList)
+
+# Extra 1
+
+students = [
+]
+student1 = ["john", "88460638", "john.yeo@gmail.com"
+]
+student2 = ["jared", "80584155", "jared.pak@gmail.com"
+]
+student3 = ["zhi wei", "97426101", "tan.zhiwei@gmail.com"
+]
+student1.append()
