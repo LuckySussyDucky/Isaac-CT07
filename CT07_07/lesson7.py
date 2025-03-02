@@ -60,4 +60,4 @@ commonFruits = [
 print(fruit1)
 for i in range:
 
-    cinsert
+    commonFruits insert
