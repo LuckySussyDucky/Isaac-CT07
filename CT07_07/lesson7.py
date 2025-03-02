@@ -130,7 +130,7 @@ student3 = ["zhi wei", "97426101", "Goodminton"
 students = student1 + student2 + student3
 size = 3
 for i in range(0,len(students), size):
-    nestedList.append(student[i:i + size])
+    nestedList.append(students[i:i + size])
 for stuff in students:
     print("Name: ", stuff)
     # for stuff in range: 
