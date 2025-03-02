@@ -135,7 +135,7 @@ for student in students:
 
 
 
-for x in contacts:
-    print(x)
-    for y in x:
-        print(y)
+# for x in contacts:
+#     print(x)
+#     for y in x:
+#         print(y)
