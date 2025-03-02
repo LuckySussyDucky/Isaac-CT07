@@ -72,7 +72,7 @@ allfruits = [
 ]
 unique = [
 ]
-allFruits = fruit
+allFruits = fruit1 + fruit2
 for fruit in fruit1:
     for fruits in fruit2:
         if fruit not in unique:
