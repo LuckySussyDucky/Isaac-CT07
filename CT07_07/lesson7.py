@@ -133,11 +133,9 @@ for stuff in students:
 
 
 
-for i in range(0, len(students), size):
-    nestedList.append(students[i:i + size])
-print(nestedList)
-
-
+# for i in range(0, len(students), size):
+#     nestedList.append(students[i:i + size])
+# print(nestedList)
 
 # for x in contacts:
 #     print(x)
