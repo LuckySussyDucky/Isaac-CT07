@@ -128,7 +128,7 @@ student3 = ["zhi wei", "97426101", "Goodminton"
 students = student1 + student2 + student3
 for stuff in students:
     print("Name: ", stuff)
-    for stuff in range: 
+    # for stuff in range: 
 
 
 
