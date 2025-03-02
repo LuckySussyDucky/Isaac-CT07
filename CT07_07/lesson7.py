@@ -74,7 +74,6 @@ unique = [
 ]
 allFruits = fruit1 + fruit2
 for fruit in allFruits:
-    for fruits in fruit2:
-        if fruit not in unique:
-            unique.append(fruit)
+    if fruit not in unique:
+        unique.append(fruit)
 print(unique)
