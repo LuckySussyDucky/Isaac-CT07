@@ -77,3 +77,6 @@ for fruit in allFruits:
     if fruit not in unique:
         unique.append(fruit)
 print(unique)
+
+
+# Task 7
