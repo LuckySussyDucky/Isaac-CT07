@@ -58,6 +58,6 @@ fruit2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 commonFruits = [
 ]
 print(fruit1)
-for i in range:
+for i in :
 
     commonFruits.insert
