@@ -112,4 +112,4 @@ size = 3
 nestedList = [
 ]
 for i in range(0, len(students), size):
-    nestedList.append(students[i:])
+    nestedList.append(students[i:i + size])
