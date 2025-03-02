@@ -57,6 +57,6 @@ fruit1 = ["Apple", "Banana", "Cherry", "Durian"]
 fruit2 = ["Cherry", "Durian", "Elderberry", "Figs"] 
 commonFruits = [
 ]
-for fruit in fruits1:
-
-    commonFruits.insert
+for fruit in fruit1:
+    for item2 in fruit2:
+            commonFruits.insert
