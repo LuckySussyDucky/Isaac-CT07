@@ -94,5 +94,7 @@ for num in allNum:
 print(sorted(evenNum))
 
 
-# Task 
+# Task 8
+
+num = [[1, 2], [3, 4], [5, 6]]
 
