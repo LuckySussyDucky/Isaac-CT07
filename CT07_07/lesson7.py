@@ -58,4 +58,6 @@ fruit2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 CommonFruits = [
 ]
 print(fruit1)
-# for i in range:
+for i in range:
+
+    C
