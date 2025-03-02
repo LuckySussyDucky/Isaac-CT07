@@ -58,5 +58,6 @@ fruit2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 commonFruits = [
 ]
 for fruit in fruit1:
-    for item2 in fruit2:
+    for fruits in fruit2:
+        if fruit == item2:
             commonFruits.insert
