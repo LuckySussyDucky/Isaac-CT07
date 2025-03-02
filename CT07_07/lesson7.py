@@ -80,3 +80,6 @@ print(unique)
 
 
 # Task 7
+
+num1 = [1, 2, 3, 4]
+list2 = [5, 6, 7, 8]
