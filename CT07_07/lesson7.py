@@ -134,7 +134,8 @@ for i in range(0,len(students), size):
 for stuff in nestedList:
     name, number, cca = stuff
     print("Name: ", name)
-    print("phone Number: ", )
+    print("phone Number: ", number)
+    print("CCA")
 
 
 
