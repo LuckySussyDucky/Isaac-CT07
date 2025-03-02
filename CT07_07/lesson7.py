@@ -60,4 +60,4 @@ commonFruits = [
 print(fruit1)
 for i in range:
 
-    commonFruits insert
+    commonFruits.insert
