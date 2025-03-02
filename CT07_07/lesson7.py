@@ -101,5 +101,5 @@ allNum = [
 ]
 for num in numbers:
     for number in num:
-        allNum.apeend
+        allNum.append(number)
 
