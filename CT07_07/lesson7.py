@@ -59,5 +59,5 @@ commonFruits = [
 ]
 for fruit in fruit1:
     for fruits in fruit2:
-        if fruit == item2:
+        if fruit == fruits:
             commonFruits.append(fruit)
