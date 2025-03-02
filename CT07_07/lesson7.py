@@ -73,4 +73,4 @@ unique = [
 for fruit in fruit1:
     for fruits in fruit2:
         if fruit not in unique:
-            ap
+            unique.append(fruit)
