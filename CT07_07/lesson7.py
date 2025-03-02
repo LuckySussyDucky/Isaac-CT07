@@ -90,5 +90,6 @@ allNum = [
 allNum = num1 + num2
 for num in allNum:
     if num % 2 == 0:
-        evenNum.append()
+        evenNum.append(num)
+print
 
