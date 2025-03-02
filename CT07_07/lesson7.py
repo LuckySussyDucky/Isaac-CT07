@@ -131,3 +131,11 @@ for student in students:
         print("Name: ")
         print("Phone Number: ")
         print("CCA: ")
+
+
+
+
+for x in contacts:
+    print(x)
+    for y in x:
+        print(y)
