@@ -128,7 +128,9 @@ student2 = ["jared", "80584155", "Nerd Club"
 student3 = ["zhi wei", "97426101", "Goodminton"
 ]
 students = student1 + student2 + student3
-print(students)
+size = 3
+for i in range(0,len(students), size):
+    nestedList.append
 for stuff in students:
     print("Name: ", stuff)
     # for stuff in range: 
