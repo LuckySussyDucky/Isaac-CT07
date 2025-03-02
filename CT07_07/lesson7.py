@@ -57,7 +57,6 @@ fruit1 = ["Apple", "Banana", "Cherry", "Durian"]
 fruit2 = ["Cherry", "Durian", "Elderberry", "Figs"] 
 commonFruits = [
 ]
-print(fruit1)
-for i in :
+for i in fruits1:
 
     commonFruits.insert
