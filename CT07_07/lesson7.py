@@ -130,3 +130,4 @@ for student in students:
     for stuff in student: 
         print("Name: ")
         print("Phone Number: ")
+        print()
