@@ -55,4 +55,5 @@ student1.append()
 
 fruit1 = ["Apple", "Banana", "Cherry", "Durian"]
 fruit2 = ["Cherry", "Durian", "Elderberry", "Figs"] 
-CommonFruitd =
+CommonFruits = [
+]
