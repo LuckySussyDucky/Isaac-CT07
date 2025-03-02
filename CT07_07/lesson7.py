@@ -55,9 +55,9 @@ print(fruits[lenH:])
 
 fruit1 = ["Apple", "Banana", "Cherry", "Durian"]
 fruit2 = ["Cherry", "Durian", "Elderberry", "Figs"] 
-CommonFruits = [
+commonFruits = [
 ]
 print(fruit1)
 for i in range:
 
-    coinsert
+    cinsert
