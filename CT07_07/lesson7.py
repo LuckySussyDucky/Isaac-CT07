@@ -133,7 +133,7 @@ for i in range(0,len(students), size):
     nestedList.append(students[i:i + size])
 for stuff in nestedList:
     for detail in stuff:
-        print("Name: ", stuff)
+        print("Name: ", detail)
     # for stuff in range: 
 
 
