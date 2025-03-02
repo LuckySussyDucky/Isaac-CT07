@@ -83,6 +83,12 @@ print(unique)
 
 num1 = [1, 2, 3, 4]
 num2 = [5, 6, 7, 8]
+evenNum = [
+]
 allNum = [
 ]
-allNum = 
+allNum = num1 + num2
+for num in allNum:
+    if num % 2 == 0:
+        evennNum
+
