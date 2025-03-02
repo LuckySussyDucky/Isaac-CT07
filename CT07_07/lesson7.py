@@ -66,5 +66,5 @@ print(commonFruits)
 
 # Task 6
 
-list1 = ["Apple", "Banana", "Cherry", "Cherry"]
-list2 = ["Cherry", "Durian", "Durian", "Figs"]
+fruit1 = ["Apple", "Banana", "Cherry", "Cherry"]
+fruit2 = ["Cherry", "Durian", "Durian", "Figs"]
