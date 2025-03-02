@@ -39,17 +39,18 @@ print(fruits[:lenH])
 print(fruits[lenH:])
 
 
-# Extra 1
+# # Extra 1
 
-students = [
-]
-student1 = ["john", "88460638", "john.yeo@gmail.com"
-]
-student2 = ["jared", "80584155", "jared.pak@gmail.com"
-]
-student3 = ["zhi wei", "97426101", "tan.zhiwei@gmail.com"
-]
-student1.append()
+# students = [
+# ]
+# student1 = ["john", "88460638", "john.yeo@gmail.com"
+# ]
+# student2 = ["jared", "80584155", "jared.pak@gmail.com"
+# ]
+# student3 = ["zhi wei", "97426101", "tan.zhiwei@gmail.com"
+# ]
+# student1.append()
+
 
 # Task 5
 
