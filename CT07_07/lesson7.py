@@ -128,15 +128,15 @@ student3 = ["zhi wei", "97426101", "Goodminton"
 students = student1 + student2 + student3
 for student in students:
     print(student)
-    for stuff in student: 
-        print("Name: ")
-        print("Phone Number: ")
-        print("CCA: ")
+#     for stuff in student: 
+#         print("Name: ")
+#         print("Phone Number: ")
+#         print("CCA: ")
 
 
 
 
-for x in contacts:
-    print(x)
-    for y in x:
-        print(y)
+# for x in contacts:
+#     print(x)
+#     for y in x:
+#         print(y)
