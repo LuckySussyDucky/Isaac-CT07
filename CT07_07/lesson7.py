@@ -93,3 +93,6 @@ for num in allNum:
         evenNum.append(num)
 print(sorted(evenNum))
 
+
+# Task 
+
