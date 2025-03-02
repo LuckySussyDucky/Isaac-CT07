@@ -129,3 +129,4 @@ students = student1 + student2 + student3
 for student in students:
     for stuff in student: 
         print("Name: ")
+        print("Phone")
