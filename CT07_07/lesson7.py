@@ -131,7 +131,7 @@ students = student1 + student2 + student3
 size = 3
 for i in range(0,len(students), size):
     nestedList.append(students[i:i + size])
-for stuff in students:
+for stuff in nestedList:
     print("Name: ", stuff)
     # for stuff in range: 
 
