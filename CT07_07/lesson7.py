@@ -68,7 +68,7 @@ print(commonFruits)
 
 fruit1 = ["Apple", "Banana", "Cherry", "Cherry"]
 fruit2 = ["Cherry", "Durian", "Durian", "Figs"]
-allfruits = [
+allFruits = [
 ]
 unique = [
 ]
