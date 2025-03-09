@@ -1,7 +1,7 @@
 import random
 # Question 1
 
-Monsr
+MonstersFought = 0
 HeroHealth = 100
 print("Hero starts on his adventure with Health: ", HeroHealth)
 
