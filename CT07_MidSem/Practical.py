@@ -30,6 +30,8 @@ for i in range(len(Order)):
     counter = counter + 1
 
 
-row = ["Emily", "Keith", "Nadia", "Paul"]
-row.insert(2, "Preeti")
-print(row)
+
+
+
+line = "ROBLOX,USD,0,813345,4.5,Games"
+words = line.split(",")
