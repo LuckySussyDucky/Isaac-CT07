@@ -37,7 +37,7 @@ correct = False
 hiddenpwd = "computhink"
 
 # Password validation
-while not correct:
+while not True:
 	    userpwd = input("What is the password? ")
 
 if userpwd == hiddenpwd:
