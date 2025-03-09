@@ -18,4 +18,4 @@ while True:
         MonstersFought = MonstersFought + 1
     else:
         break
-    
+print("The Hero fought ", MonstersFought, "battles, and died.")
