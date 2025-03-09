@@ -33,11 +33,11 @@ for i in range(len(Order)):
 
 
 
-correct = False
+correct = True
 hiddenpwd = "computhink"
 
 # Password validation
-while not correct:
+while correct:
 	    userpwd = input("What is the password? ")
 
 if userpwd == hiddenpwd:
