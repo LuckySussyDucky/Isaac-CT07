@@ -35,4 +35,4 @@ for i in range(len(Order)):
 
 line = "ROBLOX,USD,0,813345,4.5,Games"
 words = line.split(",")
-print
+print(words[1])
