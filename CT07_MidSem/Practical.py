@@ -1,2 +1,2 @@
 HeroHealth = 100
-print("Hero starts the battle ")
+print("Hero starts on his adventure with")
