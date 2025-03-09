@@ -41,17 +41,17 @@ print(words[0])
 print(words[3])
 print(words[2])
 
-correct = False
-hiddenpwd = "computhink"
+# correct = False
+# hiddenpwd = "computhink"
 
-# Password validation
-while not correct:
-	    userpwd = input("What is the password? ")
+# # Password validation
+# while not correct:
+# 	    userpwd = input("What is the password? ")
 
-if userpwd == hiddenpwd:
-	correct = True
+# if userpwd == hiddenpwd:
+# 	correct = True
 
-print("Access granted")
+# print("Access granted")
 
 import random
 lucky_draw = []
