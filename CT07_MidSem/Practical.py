@@ -24,7 +24,7 @@ while FoodToEat != "end":
     Order.append(FoodToEat)
 Order.pop(len(Order-1))
 for i in range(len(Order)):
-    print(counter, ".", )
+    print(counter, ".", Order[i])
 
 
 
