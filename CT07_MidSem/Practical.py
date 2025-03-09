@@ -18,7 +18,7 @@ else:
 
 Order = [
 ]
-whileFoodT
+while FoodToEat != "end":
 FoodToEat = input("What would you like to eat?")
 Order.append(FoodToEat)
 
