@@ -11,4 +11,4 @@ while HeroHealth > 0:
     print("After fighting a monster, his Health is now:", HeroHealth)
     MonstersFought = MonstersFought + 1
 else:
-    print("The Hero fought ", MonstersFought, "battles, and died.")
+    print("The Hero fought", MonstersFought, "battles, and died.")
