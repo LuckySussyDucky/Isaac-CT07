@@ -33,38 +33,3 @@ for i in range(len(Order)):
 
 
 
-line = "ROBLOX,USD,0,813345,4.5,Games"
-words = line.split(",")
-print(words[1])
-print(words[-1])
-print(words[0])
-print(words[3])
-print(words[2])
-
-correct = False
-hiddenpwd = "computhink"
-
-# Password validation
-while not correct:
-	userpwd = input("What is the password? ")
-
-if userpwd == hiddenpwd:
-	correct = True
-
-print("Access granted")
-
-import random
-lucky_draw = []
-
-while len(lucky_draw) < 3:
-	num1 = random.randint(10000, 20000)
-	if num1 in lucky_draw:
-		pass
-	else:
-		lucky_draw.append(num1)
-
-print("The winning tickets are as follows:")
-counter = 1
-for item in lucky_draw:
-	print(str(counter) + ". " + str(item))
-	counter = counter + 1
