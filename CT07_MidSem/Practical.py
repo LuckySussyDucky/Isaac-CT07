@@ -19,6 +19,7 @@ else:
 Order = [
 ]
 FoodToEat = input("What would you like to eat?")
+order.append
 
 
 if FoodToEat == "end":
