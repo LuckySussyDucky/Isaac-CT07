@@ -16,4 +16,4 @@ else:
 
 # Question 2
 
-FoodToEat = 
+FoodToEat = input("What would you like to eat?")
