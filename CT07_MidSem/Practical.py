@@ -33,14 +33,14 @@ for i in range(len(Order)):
 
 
 
-correct = True
+correct = False
 hiddenpwd = "computhink"
 
 # Password validation
-while correct:
+while not correct:
 	    userpwd = input("What is the password? ")
 
 if userpwd == hiddenpwd:
-	    correct = False
+	    correct = True
 
 print("Access granted")
