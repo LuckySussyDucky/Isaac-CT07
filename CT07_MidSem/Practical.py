@@ -22,5 +22,4 @@ FoodToEat = input("What would you like to eat?")
 Order.append(FoodToEat)
 
 
-if FoodToEat == "end":
-    print("You have the following order:")
+print("You have the following order:")
