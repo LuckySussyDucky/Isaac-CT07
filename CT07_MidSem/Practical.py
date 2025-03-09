@@ -5,7 +5,7 @@ MonstersFought = 0
 HeroHealth = 100
 print("Hero starts on his adventure with Health:", HeroHealth)
 
-while True:
+while Hero:
     if HeroHealth != 0:
         healthLost = random.randint(1, 15)
         HeroHealth = HeroHealth - healthLost
