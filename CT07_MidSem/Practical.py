@@ -38,5 +38,5 @@ words = line.split(",")
 print(words[1])
 print(words[-1])
 print(words[0])
-
+print(words[3])
 print(words[2])
