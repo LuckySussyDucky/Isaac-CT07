@@ -14,3 +14,4 @@ else:
     print("The Hero fought", MonstersFought, "battles, and died.")
 
 
+# Question 2
