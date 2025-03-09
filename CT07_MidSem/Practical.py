@@ -18,5 +18,6 @@ else:
 
 FoodToEat = input("What would you like to eat?")
 
+
 if FoodToEat == "end":
     print("You have the following order:")
