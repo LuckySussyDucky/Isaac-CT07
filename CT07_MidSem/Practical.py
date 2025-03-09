@@ -4,4 +4,4 @@ import random
 HeroHealth = 100
 print("Hero starts on his adventure with Health: ", HeroHealth)
 
-random.randint
+healthLossrandom.randint
