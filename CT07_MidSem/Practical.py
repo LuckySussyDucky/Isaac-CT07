@@ -16,4 +16,4 @@ else:
 
 # Question 2
 
-Food 
+FoodToEat = 
