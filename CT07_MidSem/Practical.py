@@ -26,7 +26,7 @@ while FoodToEat != "end":
 print("You have the following order:")
 Order.pop(len(Order)- 1)
 for i in range(len(Order)):
-    print(counter + ". " + Order[i])
+    print(counter + ".", Order[i])
     counter = counter + 1
 
 
