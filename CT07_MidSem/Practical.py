@@ -28,3 +28,15 @@ Order.pop(len(Order)- 1)
 for i in range(len(Order)):
     print(counter, ".", Order[i])
     counter = counter + 1
+
+correct = False
+hiddenpwd = "computhink"
+
+# Password validation
+while not correct:
+	    userpwd = input("What is the password? ")
+
+if userpwd == hiddenpwd:
+	    correct = True
+
+print("Access granted")
