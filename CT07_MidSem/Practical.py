@@ -16,4 +16,4 @@ elif HeroHealth > 0:
     print("After fighting a monster, his Health is now: ", HeroHealth)
     MonstersFought = MonstersFought + 1
 else:
-    print("")
+    print("The Hero fought ", Monster)
