@@ -30,3 +30,6 @@ for i in range(len(Order)):
     counter = counter + 1
 
 
+row = ["Emily", "Keith", "Nadia", "Paul"]
+row.insert(2, "Preeti")
+print(row)
