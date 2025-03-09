@@ -6,3 +6,4 @@ print("Hero starts on his adventure with Health: ", HeroHealth)
 
 healthLost = random.randint(1, 15)
 HeroHealth = HeroHealth - healthLost
+print("")
