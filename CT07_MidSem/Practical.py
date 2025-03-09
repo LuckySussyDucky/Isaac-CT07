@@ -21,7 +21,7 @@ Order = [
 while FoodToEat != "end":
     FoodToEat = input("What would you like to eat?")
     Order.append(FoodToEat)
-Order.pop
+Order.pop(len(Order)-1)
 
 
 print("You have the following order:")
