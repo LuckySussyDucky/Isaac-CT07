@@ -52,3 +52,19 @@ if userpwd == hiddenpwd:
 	correct = True
 
 print("Access granted")
+
+import random
+lucky_draw = []
+
+while len(lucky_draw) < 3:
+	num1 = random.randint(10000, 20000)
+	if num1 in lucky_draw:
+		pass
+	else:
+		lucky_draw.append(num1)
+
+print("The winning tickets are as follows:")
+counter = 1
+for item in lucky_draw:
+	print(str(counter) + ". " + str(item))
+	counter = counter + 1
