@@ -1,1 +1,2 @@
-HeroHGealth
+HeroHealth = 100
+print
