@@ -23,4 +23,4 @@ print(unique[index:])
 # isdigit() function is True if all is numbers
 # isalpha() function is True if all is words
 # isalnum() function is True if all is numbers or words
-# 
+# isupper()
