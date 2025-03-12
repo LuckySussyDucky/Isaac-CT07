@@ -15,4 +15,3 @@ for numbers in allNum:
     if numbers not in unique:
         unique.append(numbers)
 sorted(unique)
-print(unique)
