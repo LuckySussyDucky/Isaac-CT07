@@ -16,4 +16,4 @@ for numbers in allNum:
         unique.append(numbers)
 (sorted(unique))
 index = len(unique) // 2
-ptinr
+print()
