@@ -6,7 +6,7 @@ planet = [
     "Mercury",
     "Venus",
     "Earth",
-    "Mars",
+    "Mars", 
     "Jupiter",
     "Saturn",
     "Uranus",
