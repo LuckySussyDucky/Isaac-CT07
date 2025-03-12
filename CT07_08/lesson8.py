@@ -30,4 +30,4 @@ is8CharLong = False
 hasupper = False
 haslower = False
 hasnum = False
-onlyalnum= False
+onlyalnum = False
