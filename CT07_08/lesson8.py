@@ -82,4 +82,4 @@ if is8CharLong and hasupper and haslower and hasnum and onlyalnum:
 
 # Task 2
 
-userInput = input()
+userInput = input("What is your full name? ")
