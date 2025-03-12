@@ -87,5 +87,6 @@ userInput = input("What is your full name? ")
 
 for i in range(len(userInput)):
     if i % 2 == 0:
-        end = end + string[i]
+        end = end + string[i].lower()
+        
     
