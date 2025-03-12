@@ -43,3 +43,5 @@ hasupper = False
 haslower = False
 hasnum = False
 onlyalnum = False
+
+isalnum()
