@@ -15,4 +15,4 @@ for numbers in allNum:
     if numbers not in unique:
         unique.append(numbers)
 (sorted(unique))
-len(unique)
+index = len(unique) // 2
