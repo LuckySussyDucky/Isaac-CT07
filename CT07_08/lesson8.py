@@ -27,7 +27,7 @@ print(unique[index:])
 # islower() function is True if all is all lowercase letters
 
 is8CharLong = False
-hasupper
+hasupper = False
 haslower
 hasnum
-onlyallnum
+onlyalnum
