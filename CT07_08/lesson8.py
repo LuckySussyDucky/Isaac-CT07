@@ -84,11 +84,12 @@ if is8CharLong and hasupper and haslower and hasnum and onlyalnum:
 # Task 2
 
 userInput = input("What is your full name? ")
-
+end=
 for i in range(len(userInput)):
     if i % 2 == 0:
         end = end + userInput[i].lower()
     else:
         end = end + userInput[i].upper()
+print(end)
         
     
