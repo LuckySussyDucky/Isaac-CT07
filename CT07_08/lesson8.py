@@ -98,3 +98,4 @@ print("Hello, " + end)
 
 string = ""
 list = string.split()
+print(list)
