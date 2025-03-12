@@ -78,3 +78,5 @@ while True:
         print("The password must have only alphanumerical.")
     else:
         print("Password is valid.")
+
+
