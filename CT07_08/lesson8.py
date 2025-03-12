@@ -36,4 +36,4 @@ print(unique[index:])
 
 # Task 1
 
-userInput = input()
+userInput = input("What would you like your password to be? ")
