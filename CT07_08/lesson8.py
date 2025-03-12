@@ -58,7 +58,7 @@ for i in userInput:
         onlynum = False
 
 if is8CharLong and hasupper and haslower and hasnum and onlyalnum:
-    print
+    print("")
 
 
 
