@@ -26,8 +26,9 @@ print(unique[index:])
 # isupper() function is True if all is all capital letters
 # islower() function is True if all is all lowercase letters
 
-is8CharLong = False
-hasupper = False
-haslower = False
-hasnum = False
-onlyalnum = False
+# is8CharLong = False
+# hasupper = False
+# haslower = False
+# hasnum = False
+# onlyalnum = False
+# if all correct, password is valid
