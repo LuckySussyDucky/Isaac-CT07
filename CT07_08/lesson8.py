@@ -45,4 +45,5 @@ hasnum = False
 onlyalnum = False
 
 if len(userInput) >= 8:
-    is8CharLong
+    is8CharLong = True
+
