@@ -52,7 +52,8 @@ for i in userInput:
         hasupper = True
     if i.islower():
         haslower = True
-    
+    if i.isdigit():
+        hasnum = True
 
 hasnum = userInput.isdigit()
 onlyalnum = userInput.isalnum()
