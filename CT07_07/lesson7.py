@@ -17,7 +17,7 @@ price2 = [6.15, 5.45, 4.20]
 price = [
 ]
 price = price1 + price2
-print(sorted(price))
+print(sorted(price)) 
 
 
 # Task 3

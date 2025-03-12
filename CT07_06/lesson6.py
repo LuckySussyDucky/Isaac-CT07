@@ -39,7 +39,7 @@ for student in students:
 
 # Task 2b
 
-    if gender == "F":
+    if gender == "F": 
         girls.append(name)
         counter1 = counter1 + 1
     elif gender == "M":
