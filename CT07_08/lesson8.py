@@ -104,5 +104,5 @@ print(list)
 # Task 4 
 
 string = ["Hi! I am Isaac David Lee Wai Kit!"]
-list = string.split()
+string = 
 
