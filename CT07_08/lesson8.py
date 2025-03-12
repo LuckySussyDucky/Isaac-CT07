@@ -38,3 +38,8 @@ print(unique[index:])
 
 userInput = input("What would you like your password to be? ")
 
+is8CharLong = False
+hasupper = False
+haslower = False
+hasnum = False
+onlyalnum = False
