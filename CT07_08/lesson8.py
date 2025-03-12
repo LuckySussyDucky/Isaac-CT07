@@ -26,3 +26,4 @@ print(unique[index:])
 # isupper() function is True if all is all capital letters
 # islower() function is True if all is all lowercase letters
 
+is8CharLong = Fa
