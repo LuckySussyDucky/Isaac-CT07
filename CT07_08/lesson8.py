@@ -80,3 +80,6 @@ while True:
         print("Password is valid.")
 
 
+# Task 2
+
+userInput = input
