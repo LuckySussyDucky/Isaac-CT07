@@ -75,6 +75,6 @@ while True:
     elif pw.isalpha():
         print("The password need to have a alphabate")
     elif pw.isalnum():
-        print("The password must have only ")
+        print("The password must have only alphanumerical.")
     else:
         print("Password is valid.")
