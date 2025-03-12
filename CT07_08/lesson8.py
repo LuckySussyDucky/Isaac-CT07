@@ -48,4 +48,4 @@ if len(userInput) >= 8:
     is8CharLong = True
 
 hasnum = userInput.isdigit()
-print(hasnum)
+
