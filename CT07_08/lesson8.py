@@ -85,5 +85,7 @@ if is8CharLong and hasupper and haslower and hasnum and onlyalnum:
 
 userInput = input("What is your full name? ")
 
-for i in userInput:
-    random.randint(1,2)
+for i in range(len(userInput)):
+    if i % 2 == 0:
+        end = end 
+    
