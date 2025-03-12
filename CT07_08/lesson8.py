@@ -97,3 +97,4 @@ print("Hello, " + end)
 # Task 3 
 
 string = ""
+list = string.split()
