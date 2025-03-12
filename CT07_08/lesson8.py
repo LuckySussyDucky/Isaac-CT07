@@ -44,4 +44,5 @@ haslower = False
 hasnum = False
 onlyalnum = False
 
-isalnum(userInput)
+if len(userInput) >= 8:
+    is8CharLong
