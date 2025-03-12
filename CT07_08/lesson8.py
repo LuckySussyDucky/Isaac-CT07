@@ -103,7 +103,15 @@ print(list)
 
 # Task 4 
 
-string = ["Hi! I am Isaac David Lee Wai Kit!"]
+list =  ['Computers',
+         'empower',
+         'our',
+         'modern',
+         'world',
+         'with',
+         'their',
+         'digital',
+         'brains.']
 print(string = " ".join(list))
 
 
