@@ -42,7 +42,7 @@ is8CharLong = False
 hasupper = False
 haslower = False
 hasnum = False
-onlyalnum = False
+onlyalnum = True
 
 if len(userInput) >= 8:
     is8CharLong = True
@@ -54,7 +54,11 @@ for i in userInput:
         haslower = True
     if i.isdigit():
         hasnum = True
+    if not i.isalnum():
+        onlynum = False
 
+if is8CharLong and hasupper and haslower and hasnum and onlyalnum:
+    print
 
 
 
