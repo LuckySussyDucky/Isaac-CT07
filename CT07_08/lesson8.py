@@ -96,6 +96,6 @@ print("Hello, " + end)
 
 # Task 3 
 
-string = "Hi"
+string = "Hi! I am Isaac David Lee Wai Kit!"
 list = string.split()
 print(list)
