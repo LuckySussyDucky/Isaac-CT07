@@ -48,4 +48,5 @@ if len(userInput) >= 8:
     is8CharLong = True
 
 hasnum = userInput.isdigit()
-userInput.isalnum()
+onlyalnum = userInput.isalnum()
+
