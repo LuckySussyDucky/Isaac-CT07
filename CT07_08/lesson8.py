@@ -49,4 +49,4 @@ if len(userInput) >= 8:
 
 hasnum = userInput.isdigit()
 onlyalnum = userInput.isalnum()
-userInput.isupper()
+hasupper = userInput.isupper()
