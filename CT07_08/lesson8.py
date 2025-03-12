@@ -20,11 +20,11 @@ print(unique[:index])
 print(unique[index:])
 
 
-# isdigit() function is True if all is numbers
-# isalpha() function is True if all is words
-# isalnum() function is True if all is numbers or words
-# isupper() function is True if all is all capital letters
-# islower() function is True if all is all lowercase letters
+# .isdigit() function is True if all is numbers
+# .isalpha() function is True if all is words
+# .isalnum() function is True if all is numbers or words
+# .isupper() function is True if all is all capital letters
+# .islower() function is True if all is all lowercase letters
 
 # is8CharLong = False
 # hasupper = False
@@ -47,3 +47,5 @@ onlyalnum = False
 if len(userInput) >= 8:
     is8CharLong = True
 
+hasnum = userInput.isdigit()
+print(hasnum)
