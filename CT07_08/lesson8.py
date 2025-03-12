@@ -47,4 +47,3 @@ onlyalnum = False
 if len(userInput) >= 8:
     is8CharLong = True
 
-isupper
