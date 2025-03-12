@@ -89,6 +89,6 @@ for i in range(len(userInput)):
     if i % 2 == 0:
         end = end + userInput[i].lower()
     else:
-        end = end + userInput[i]
+        end = end + userInput[i].upper()
         
     
