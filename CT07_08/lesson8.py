@@ -8,3 +8,4 @@ list3 = [9, 8, 7]
 allNum = [
 ]
 allNum = list1 + list2 + list3
+print(allNum)
