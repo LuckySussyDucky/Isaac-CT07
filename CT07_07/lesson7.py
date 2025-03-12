@@ -6,7 +6,7 @@ fruits1 = ["Apple", "Banana", "Cherry"]
 fruits2 = ["Durian", "Elderberry", "Figs"]
 fruits = [
 ]
-fruits = fruits1 + fruits2
+fruits = fruits1 + fruits2 
 print(fruits)
 
 
