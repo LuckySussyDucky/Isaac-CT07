@@ -18,3 +18,5 @@ unique = (sorted(unique))
 index = len(unique) // 2
 print(unique[:index])
 print(unique[index:])
+
+
