@@ -20,3 +20,4 @@ print(unique[:index])
 print(unique[index:])
 
 
+isdigit()
