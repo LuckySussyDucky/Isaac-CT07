@@ -82,4 +82,4 @@ while True:
 
 # Task 2
 
-userInput = input
+userInput = input()
