@@ -96,6 +96,6 @@ print("Hello, " + end)
 
 # Task 3 
 
-string = ""
+string = "Hi"
 list = string.split()
 print(list)
