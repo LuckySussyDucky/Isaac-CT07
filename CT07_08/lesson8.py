@@ -24,3 +24,4 @@ print(unique[index:])
 # isalpha() function is True if all is words
 # isalnum() function is True if all is numbers or words
 # isupper() function is True if all is all capital letters
+# islower()
