@@ -55,9 +55,6 @@ for i in userInput:
     if i.isdigit():
         hasnum = True
 
-hasnum = userInput.isdigit()
-onlyalnum = userInput.isalnum()
-hasupper = userInput.isupper()
-haslower = userInput.islower()
+
 
 
