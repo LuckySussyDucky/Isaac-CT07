@@ -60,4 +60,7 @@ for i in userInput:
 if is8CharLong and hasupper and haslower and hasnum and onlyalnum:
     print("Your password is valid")
 
+# OR
 
+while True: 
+    pw
