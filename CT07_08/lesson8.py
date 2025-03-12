@@ -62,22 +62,22 @@ if is8CharLong and hasupper and haslower and hasnum and onlyalnum:
 
 # OR
 
-while True: 
-    pw = input("Enter Password: ")
-    if len(pw) <= 8:
-        print("The password needs to have at least 8 characters.")
-    elif pw.isupper():
-        print("The password needs to have uppercase letters")
-    elif pw.islower():
-        print("The password needs to have lowercase letters")
-    elif pw.isdigit():
-        print("The password need to have a number.")
-    elif pw.isalpha():
-        print("The password need to have a alphabate")
-    elif pw.isalnum():
-        print("The password must have only alphanumerical.")
-    else:
-        print("Password is valid.")
+# while True: 
+#     pw = input("Enter Password: ")
+#     if len(pw) <= 8:
+#         print("The password needs to have at least 8 characters.")
+#     elif pw.isupper():
+#         print("The password needs to have uppercase letters")
+#     elif pw.islower():
+#         print("The password needs to have lowercase letters")
+#     elif pw.isdigit():
+#         print("The password need to have a number.")
+#     elif pw.isalpha():
+#         print("The password need to have a alphabate")
+#     elif pw.isalnum():
+#         print("The password must have only alphanumerical.")
+#     else:
+#         print("Password is valid.")
 
 
 # Task 2
