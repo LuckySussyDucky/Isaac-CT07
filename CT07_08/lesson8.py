@@ -13,4 +13,4 @@ allNum = list1 + list2 + list3
 print(allNum)
 for numbers in allNum:
     if numbers not in unique:
-        unique.append()
+        unique.append(numbers)
