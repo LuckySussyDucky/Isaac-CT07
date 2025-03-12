@@ -50,6 +50,9 @@ if len(userInput) >= 8:
 for i in userInput:
     if i.isupper():
         hasupper = True
+    if i.islower():
+        haslower = True
+    
 
 hasnum = userInput.isdigit()
 onlyalnum = userInput.isalnum()
