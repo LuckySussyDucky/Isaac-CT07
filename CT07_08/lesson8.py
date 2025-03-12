@@ -28,3 +28,6 @@ print(unique[index:])
 
 is8CharLong = False
 hasupper
+haslower
+hasnum
+onlyallnum
