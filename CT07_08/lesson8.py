@@ -14,7 +14,7 @@ print(allNum)
 for numbers in allNum:
     if numbers not in unique:
         unique.append(numbers)
-(sorted(unique))
+unique = (sorted(unique))
 index = len(unique) // 2
 print(unique[index:])
 print(unique[:index])
