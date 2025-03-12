@@ -34,3 +34,6 @@ print(unique[index:])
 # if all correct, password is valid
 
 
+# Task 1
+
+
