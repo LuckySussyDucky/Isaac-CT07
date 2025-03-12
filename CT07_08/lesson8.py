@@ -104,5 +104,6 @@ print(list)
 # Task 4 
 
 string = ["Hi! I am Isaac David Lee Wai Kit!"]
-string = 
+string = " ".join(list)
+
 
