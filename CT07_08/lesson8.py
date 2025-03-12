@@ -1,3 +1,4 @@
+import random
 print("Hello from lesson 8")
 
 # Recap 1
@@ -83,3 +84,6 @@ if is8CharLong and hasupper and haslower and hasnum and onlyalnum:
 # Task 2
 
 userInput = input("What is your full name? ")
+
+for i in userInput:
+    random.randint()
