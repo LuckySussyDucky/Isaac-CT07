@@ -44,4 +44,4 @@ haslower = False
 hasnum = False
 onlyalnum = False
 
-isalnum()
+isalnum(userInput)
