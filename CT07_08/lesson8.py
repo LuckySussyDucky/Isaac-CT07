@@ -33,5 +33,4 @@ print(unique[index:])
 # onlyalnum = False
 
 
-
 # if all correct, password is valid
