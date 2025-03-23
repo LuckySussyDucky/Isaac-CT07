@@ -156,10 +156,10 @@ while True:
         reversedWords = [
 ]
         for letters in word:
-        reversedWord = letters[::-1]
-        reversedWords.append(reversedWord)
-        reversedSentence = " ".join(reversedWords)
-    if reversedSentence == phrase:
-        print("It is a palindrome.")
+            reversedWord = letters[::-1]
+            reversedWords.append(reversedWord)
+            reversedSentence = " ".join(reversedWords)
+        if reversedSentence == phrase:
+            print("It is a palindrome.")
     else: 
         print("It is not a palindrome.")
