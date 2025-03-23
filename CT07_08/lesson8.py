@@ -122,7 +122,7 @@ print(list)
 
 phrase = "Hello world"
 word = phrase.split(" ")
-reversedSentence = [
+reversedWords = [
 ]
 for letters in word:
     reversedWord = letters[::-1]
