@@ -122,3 +122,5 @@ print(list)
 
 phrase = "Hello world"
 word = phrase.split(" ")
+for letters in word:
+    reversedWord = 
