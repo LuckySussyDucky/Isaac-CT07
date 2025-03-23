@@ -29,5 +29,9 @@ pen.goto(-300, -250)
 pen.seth(0)
 pen.forward(600)
 pen.hideturtle
-# 
+
+
+
+
+
 window.mainloop()
