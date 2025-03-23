@@ -32,7 +32,7 @@ pen.hideturtle
 
 # Task 1d
 
-sl
+Sally = tut
 
 
 
