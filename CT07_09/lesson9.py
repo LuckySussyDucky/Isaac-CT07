@@ -14,7 +14,3 @@ window.mainloop()
 pen = turtle.Turtle()
 pen.sety(250)
 pen.shape(square)
-
-
-
-
