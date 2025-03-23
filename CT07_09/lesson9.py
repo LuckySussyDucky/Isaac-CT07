@@ -33,7 +33,7 @@ pen.hideturtle
 # Task 1d
 
 Sally = turtle.Turtle()
-Sally.penup
+Sally.penup()
 Sally.shape("turtle")
 Sally.color("#FF0000")
 Sally.seth(90)
