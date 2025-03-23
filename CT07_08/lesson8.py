@@ -122,6 +122,8 @@ print(list)
 
 phrase = "Hello world"
 word = phrase.split(" ")
-reversedWords = []
+reversedWords = [
+]
 for letters in word:
     reversedWord = letters[::-1]
+    rever
