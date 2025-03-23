@@ -9,4 +9,3 @@ window.mainloop()
 
 bob = turtle.Turtle()
 
-bob.seft
