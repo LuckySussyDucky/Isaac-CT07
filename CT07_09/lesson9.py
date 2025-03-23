@@ -33,7 +33,7 @@ pen.hideturtle
 # Task 1d
 
 Sally = turtle.Turtle()
-Sally.shape
+Sally.shape("turtle")
 
 
 
