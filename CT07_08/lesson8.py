@@ -124,3 +124,4 @@ phrase = "Hello world"
 word = phrase.split(" ")
 for letters in word:
     reversedWord = letters[::-1]
+    
