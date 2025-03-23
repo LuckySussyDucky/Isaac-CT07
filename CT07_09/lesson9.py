@@ -26,4 +26,6 @@ pen.color("#FFFF00")
 pen.pendown()
 pen.goto(-290, -250)
 pen.seth(0)
+pen.forward(600)
+
 window.mainloop()
