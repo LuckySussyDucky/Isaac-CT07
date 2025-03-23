@@ -142,4 +142,4 @@ for letters in word:
     reversedWords.append(reversedWord)
 reversedSentence = " ".join(reversedWords)
 if reversedSentence == phrase:
-    print("It i")
+    print("It is a palindrome.")
