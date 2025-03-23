@@ -149,12 +149,13 @@ else:
 
 # Task 7
 
-if phrase != "end":
-    phrase = input("Provide a word: ")
-    word = phrase.split(" ")
-    reversedWords = [
+while True:
+    if phrase != "end":
+        phrase = input("Provide a word: ")
+        word = phrase.split(" ")
+        reversedWords = [
 ]
-    for letters in word:
+        for letters in word:
         reversedWord = letters[::-1]
         reversedWords.append(reversedWord)
         reversedSentence = " ".join(reversedWords)
