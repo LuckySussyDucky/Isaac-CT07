@@ -40,4 +40,5 @@ Sally.seth(90)
 
 
 
+
 window.mainloop()
