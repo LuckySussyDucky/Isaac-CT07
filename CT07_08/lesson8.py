@@ -126,4 +126,4 @@ reversedWords = [
 ]
 for letters in word:
     reversedWord = letters[::-1]
-    rever
+    reversedWord
