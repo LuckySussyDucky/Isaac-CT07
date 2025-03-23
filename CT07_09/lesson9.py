@@ -36,7 +36,7 @@ Sally = turtle.Turtle()
 Sally.shape("turtle")
 Sally.color("#FF0000")
 Sally.seth(90)
-
+Sally,penup
 
 
 
