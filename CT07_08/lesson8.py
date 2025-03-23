@@ -180,7 +180,7 @@ for letters in word:
     isPalindrome = letters == reversedWord
     if(isPalindrome):
         NumOfPalindromes += 1
-    reversedWords.append(reversedWord)
+        reversedWords.append(reversedWord)
     reversedSentence = " ".join(reversedWords)
 if reversedSentence == phrase:
     print(phrase + " is a palindrome.")
