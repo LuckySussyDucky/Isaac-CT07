@@ -132,3 +132,13 @@ print(reversedSentence)
 
 
 # Task 6
+
+phrase = "Hello world"
+word = phrase.split(" ")
+reversedWords = [
+]
+for letters in word:
+    reversedWord = letters[::-1]
+    reversedWords.append(reversedWord)
+reversedSentence = " ".join(reversedWords)
+print(reversedSentence)
