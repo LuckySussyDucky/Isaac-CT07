@@ -171,15 +171,14 @@ while True:
 
 
 phrase = input("Provide a senetence: ")
-if phrase != "end":
-    word = phrase.split(" ")
-    reversedWords = [
+word = phrase.split(" ")
+reversedWords = [
 ]
-    for letters in word:
-        reversedWord = letters[::-1]
-        reversedWords.append(reversedWord)
-        reversedSentence = " ".join(reversedWords)
-    if reversedSentence == phrase:
-        print(phrase + " is a palindrome.")
-    else: 
-        print(phrase + " is not a palindrome.")
+for letters in word:
+    reversedWord = letters[::-1]
+    reversedWords.append(reversedWord)
+    reversedSentence = " ".join(reversedWords)
+if reversedSentence == phrase:
+    print(phrase + " is a palindrome.")
+else: 
+    print(phrase + " is not a palindrome.")
