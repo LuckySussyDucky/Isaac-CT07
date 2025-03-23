@@ -30,7 +30,9 @@ pen.forward(600)
 pen.hideturtle
 
 
-# Task
+# Task 1d
+
+sl
 
 
 
