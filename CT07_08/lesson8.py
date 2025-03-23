@@ -165,3 +165,6 @@ while True:
             print("It is not a palindrome.")
     else:
         break
+
+
+# Task 8
