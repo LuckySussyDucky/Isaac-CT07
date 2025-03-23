@@ -11,7 +11,8 @@ window.mainloop()
 
 # Task 1b
 
-pen = turtle
+pen = turtle.Turtle
+
 
 
 
