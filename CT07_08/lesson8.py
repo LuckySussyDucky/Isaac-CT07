@@ -170,7 +170,7 @@ while True:
 # Task 8
 
 
-phrase = input("Provide a word: ")
+phrase = input("Provide a senetence: ")
 if phrase != "end":
     word = phrase.split(" ")
     reversedWords = [
@@ -180,6 +180,6 @@ if phrase != "end":
         reversedWords.append(reversedWord)
         reversedSentence = " ".join(reversedWords)
     if reversedSentence == phrase:
-        print("It is a palindrome.")
+        print(phrase" is a palindrome.")
     else: 
         print("It is not a palindrome.")
