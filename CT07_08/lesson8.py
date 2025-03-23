@@ -174,6 +174,7 @@ phrase = input("Provide a senetence: ")
 word = phrase.split(" ")
 reversedWords = [
 ]
+numberOfp
 for letters in word:
     reversedWord = letters[::-1]
     reversedWords.append(reversedWord)
