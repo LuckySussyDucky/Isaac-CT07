@@ -133,7 +133,7 @@ print(reversedSentence)
 
 # Task 6
 
-phrase = "Hello world"
+phrase = "radar"
 word = phrase.split(" ")
 reversedWords = [
 ]
