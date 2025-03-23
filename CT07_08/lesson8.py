@@ -147,4 +147,5 @@ else:
     print("It is not a palindrome.")
 
 
-# Task 
+# Task 7
+
