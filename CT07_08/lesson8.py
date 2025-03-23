@@ -181,9 +181,4 @@ for letters in word:
     if(isPalindrome):
         NumOfPalindromes += 1
         reversedWords.append(reversedWord)
-    reversedSentence = " ".join(reversedWords)
-if reversedSentence == phrase:
-    print(phrase + " is a palindrome.")
-    
-else: 
-    print(phrase + " is not a palindrome.")
+print(N)
