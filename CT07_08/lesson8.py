@@ -179,7 +179,7 @@ for letters in word:
     reversedWord = letters[::-1]
     isPalindrome = letters == reversedWord
     if(isPalindrome):
-        NumOf
+        NumOfPalindromes += 1
     reversedWords.append(reversedWord)
     reversedSentence = " ".join(reversedWords)
 if reversedSentence == phrase:
