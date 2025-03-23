@@ -14,7 +14,7 @@ pen = turtle.Turtle()
 pen.penup()
 pen.sety(250)
 pen.shape("square")
-pen.color("000000")
+pen.color("#000000")
 for i in range(-300, 300, 25):
     pen.setx(i)
     pen.stamp()
