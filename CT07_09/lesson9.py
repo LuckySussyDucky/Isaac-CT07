@@ -15,7 +15,7 @@ pen.penup()
 pen.sety(250)
 pen.shape("square")
 pen.color("#000000")
-for i in range(-270, 330, 25):
+for i in range(-250, 350, 25):
     pen.setx(i)
     pen.stamp()
 
