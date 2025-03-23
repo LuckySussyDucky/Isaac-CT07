@@ -22,5 +22,5 @@ for i in range(-290, 310, 25):
 
 # Task 1c
 
-pen.
+pen.color
 window.mainloop()
