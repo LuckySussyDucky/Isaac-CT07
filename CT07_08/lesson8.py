@@ -121,4 +121,4 @@ print(list)
 # Task 5
 
 phrase = "Hello world"
-word = phrase.split
+word = phrase.split(" ")
