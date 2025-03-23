@@ -38,7 +38,7 @@ Sally.color("#FF0000")
 Sally.seth(90)
 Sally.penup
 Sally.goto(0, -250)
-Sally.write("Sally", align = "center", font = ('Fredoka'))
+Sally.write("Sally", align = "center", font = ('Fredoka', 20))
 
 
 
