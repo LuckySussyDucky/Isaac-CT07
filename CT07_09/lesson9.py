@@ -23,5 +23,5 @@ for i in range(-290, 310, 25):
 # Task 1c
 
 pen.color("#FFFF00")
-
+pendown(pen.)
 window.mainloop()
