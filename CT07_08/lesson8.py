@@ -120,3 +120,4 @@ print(list)
 
 # Task 5
 
+phrase =
