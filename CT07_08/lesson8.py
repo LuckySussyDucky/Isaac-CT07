@@ -152,7 +152,6 @@ else:
 while True:
     phrase = input("Provide a word: ")
     if phrase != "end":
-        word = phrase.split(" ")
         reversedWords = [
 ]
         for letters in word:
