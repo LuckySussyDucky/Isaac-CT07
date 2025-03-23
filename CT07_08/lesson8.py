@@ -149,7 +149,7 @@ else:
 
 # Task 7
 
-while phrase != "end":
+while True:
     phrase = input("Provide a word: ")
     word = phrase.split(" ")
     reversedWords = [
