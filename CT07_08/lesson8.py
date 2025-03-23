@@ -144,4 +144,4 @@ reversedSentence = " ".join(reversedWords)
 if reversedSentence == phrase:
     print("It is a palindrome.")
 else: 
-    print
+    print("It is not a palindrome")
