@@ -120,4 +120,4 @@ print(list)
 
 # Task 5
 
-input("W")
+input("")
