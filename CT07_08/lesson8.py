@@ -174,7 +174,7 @@ phrase = input("Provide a senetence: ")
 word = phrase.split(" ")
 reversedWords = [
 ]
-numberOfp
+numberOfPalindromes = 0
 for letters in word:
     reversedWord = letters[::-1]
     reversedWords.append(reversedWord)
