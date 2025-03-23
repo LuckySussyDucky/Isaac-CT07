@@ -32,7 +32,7 @@ pen.hideturtle
 
 # Task 1d
 
-Sally = tut
+Sally = turtle.Turtle()
 
 
 
