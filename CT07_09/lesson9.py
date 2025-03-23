@@ -37,7 +37,8 @@ Sally.shape("turtle")
 Sally.color("#FF0000")
 Sally.seth(90)
 Sally.penup
-Sally.goto()
+Sally.goto(0, -250)
+
 
 
 
