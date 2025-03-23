@@ -20,4 +20,5 @@ for i in range(-290, 310, 25):
     pen.stamp()
 
 
+# Task 
 window.mainloop()
