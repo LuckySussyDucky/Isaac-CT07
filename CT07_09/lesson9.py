@@ -12,6 +12,7 @@ window.mainloop()
 # Task 1b
 
 pen = turtle.Turtle()
+pen.shape
 
 
 
