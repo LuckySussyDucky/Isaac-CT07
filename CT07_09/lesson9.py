@@ -7,5 +7,7 @@ window.setup()
 window.bgcolor("#3BC10A")
 window.mainloop()
 
+# Task 1b
+
 
 
