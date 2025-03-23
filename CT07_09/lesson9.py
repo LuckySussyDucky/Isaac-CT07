@@ -27,5 +27,5 @@ pen.pendown()
 pen.goto(-290, -250)
 pen.seth(0)
 pen.forward(600)
-pen.hidetutle
+pen.hideturtle
 window.mainloop()
