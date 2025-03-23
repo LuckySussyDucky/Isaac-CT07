@@ -5,4 +5,4 @@ print("Hello from lesson 9")
 window = turtle.Screen()
 window.setup()
 window.bgcolor("#3BC10A")
-window.bg
+window.bgmainloop
