@@ -145,3 +145,5 @@ if reversedSentence == phrase:
     print("It is a palindrome.")
 else: 
     print("It is not a palindrome.")
+
+
