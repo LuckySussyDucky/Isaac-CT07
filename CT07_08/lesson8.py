@@ -126,6 +126,6 @@ reversedWords = [
 ]
 for letters in word:
     reversedWord = letters[::-1]
-    reversedWord.append(reversedWords)
+    reversedWords.append(reversedWord)
 reversedSentence = " ".join(reversedWords)
 print(reversedSentence)
