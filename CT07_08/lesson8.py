@@ -147,7 +147,7 @@ else:
     print(phrase + " is not a palindrome.")
 
 
-# Task 7
+# Task 7 
 
 while True:
     phrase = input("Provide a word: ")
@@ -166,6 +166,6 @@ while True:
         break
 
 
-# Task 8
+
 
 
