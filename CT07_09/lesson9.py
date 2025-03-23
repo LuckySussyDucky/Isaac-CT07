@@ -34,7 +34,7 @@ pen.hideturtle
 
 Sally = turtle.Turtle()
 Sally.shape("turtle")
-Sally.
+Sally.color
 
 
 
