@@ -117,3 +117,5 @@ print(string)
 list = string.split()
 print(list)
 
+
+# Task 5
