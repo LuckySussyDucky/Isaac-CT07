@@ -180,6 +180,6 @@ if phrase != "end":
         reversedWords.append(reversedWord)
         reversedSentence = " ".join(reversedWords)
     if reversedSentence == phrase:
-        print(phrase + " is a palindrome.")
+        print("" + phrase + " is a palindrome.")
     else: 
         print("It is not a palindrome.")
