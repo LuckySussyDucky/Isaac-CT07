@@ -6,7 +6,6 @@ print("Hello from lesson 9")
 window = turtle.Screen()
 window.setup()
 window.bgcolor("#3BC10A")
-window.mainloop()
 
 
 # Task 1b
@@ -19,3 +18,6 @@ pen.color("000000")
 for i in range(-300, 300, 25):
     pen.setx(i)
     pen.stamp()
+
+
+window.mainloop()
