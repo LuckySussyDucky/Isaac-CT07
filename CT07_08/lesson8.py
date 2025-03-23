@@ -147,11 +147,12 @@ else:
     print(phrase + " is not a palindrome.")
 
 
-# Task 7 
+# Task 7
 
 while True:
     phrase = input("Provide a word: ")
     if phrase != "end":
+        word = phrase.split(" ")
         reversedWords = [
 ]
         for letters in word:
@@ -164,8 +165,3 @@ while True:
             print("It is not a palindrome.")
     else:
         break
-
-
-
-
-
