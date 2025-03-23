@@ -141,4 +141,3 @@ for letters in word:
     reversedWord = letters[::-1]
     reversedWords.append(reversedWord)
 reversedSentence = " ".join(reversedWords)
-print(reversedSentence)
