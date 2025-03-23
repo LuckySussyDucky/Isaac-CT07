@@ -182,4 +182,4 @@ if phrase != "end":
     if reversedSentence == phrase:
         print(phrase + " is a palindrome.")
     else: 
-        print("It is not a palindrome.")
+        print(phrase + " is not a palindrome.")
