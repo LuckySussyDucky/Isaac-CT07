@@ -8,3 +8,5 @@ window.bgcolor("#3BC10A")
 window.mainloop()
 
 bob = turtle.Turtle()
+
+bob.seft
