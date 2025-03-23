@@ -24,6 +24,7 @@ for i in range(-290, 310, 25):
 
 pen.color("#FFFF00")
 pen.goto(-300, -250)
+pen.pendown()
 pen.seth(0)
 pen.forward(600)
 pen.hideturtle
