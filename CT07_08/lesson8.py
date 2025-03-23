@@ -131,3 +131,4 @@ reversedSentence = " ".join(reversedWords)
 print(reversedSentence)
 
 
+# Task 6
