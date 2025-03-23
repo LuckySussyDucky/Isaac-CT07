@@ -25,4 +25,5 @@ for i in range(-290, 310, 25):
 pen.color("#FFFF00")
 pen.pendown()
 pen.goto(-290, -250)
+pen.seth(0)
 window.mainloop()
