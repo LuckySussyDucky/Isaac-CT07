@@ -114,4 +114,6 @@ list =  ['Computers',
          'brains.']
 string = " ".join(list)
 print(string)
+list = string.split()
+print(list)
 
