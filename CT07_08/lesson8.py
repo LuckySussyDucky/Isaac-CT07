@@ -113,5 +113,5 @@ list =  ['Computers',
          'digital',
          'brains.']
 string = " ".join(list)
-
+print(string)
 
