@@ -185,4 +185,4 @@ for letters in word:
         reversedPalindrome.append(reversedWord)
 print(NumOfPalindromes)
 for word in reversedPalindrome:
-    print()
+    print(word)
