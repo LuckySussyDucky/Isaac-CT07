@@ -75,9 +75,9 @@ Bob.pendown()
 Sally.pendown()
 John.pendown()
 while True:
+    Sally.seth(random.randint(75,115))
+    Sally.forward(random.randint(1,20))
     if Sally.ycor() < y_axis:
-        Sally.seth(random.randint(75,115))
-        Sally.forward(random.randint(1,20))
         if Sally.ycor() > y_axis:
             winner = "Sally"
             break
