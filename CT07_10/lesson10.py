@@ -27,14 +27,14 @@ while True:
 
 # Recap 3
 
-t = turtle.Turtle()
-t.shape("turtle")
-t.fillcolor("#FF8000")
-t.seth(0)
-t.pendown()
+notT = turtle.Turtle()
+notT.shape("turtle")
+notT.fillcolor("#FF8000")
+notT.seth(0)
+notT.pendown()
 while True:
     for i in range(4):
-        t.forward(100)
-        t.left(90)
+        notT.forward(100)
+        notT.left(90)
     break
-window2.mainloop()
+window2.mainloop()a
