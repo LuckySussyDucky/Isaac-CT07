@@ -95,7 +95,10 @@ while True:
             break
 
 
+# Task 1h
 
+if winner == guessWinner
+    print("You guessed it correctly! It was " + winner + "!")
 
 
 
