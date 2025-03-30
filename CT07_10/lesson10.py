@@ -63,4 +63,4 @@ notT.seth(0)
 
 square()
 
-mainloop
+window2.mainloop
