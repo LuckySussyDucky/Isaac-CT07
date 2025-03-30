@@ -77,19 +77,19 @@ John.pendown()
 while True:
     Sally.seth(random.randint(75,115))
     Sally.forward(random.randint(1,20))
-    John.seth(random.randint(75,115))
-    John.forward(random.randint(1,20))
-    Bob.seth(random.randint(75,115))
-    Bob.forward(random.randint(1,20))
-    if Sally.ycor() > y_axis:
+        John.seth(random.randint(75,115))
+        John.forward(random.randint(1,20))
+    if Sally.ycor() < y_axis:
         if Sally.ycor() > y_axis:
             winner = "Sally"
             break
-    elif John.ycor() > y_axis:
+    elif John.ycor() < y_axis:
         if John.ycor() > y_axis:
             winner = "John"
             break
     elif Bob.ycor() < y_axis:
+        Bob.seth(random.randint(75,115))
+        Bob.forward(random.randint(1,20))
         if Bob.ycor() > y_axis:
             winner = "Bob"
             break
