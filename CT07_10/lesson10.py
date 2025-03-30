@@ -1,41 +1,41 @@
 import turtle
 print("Hello from lesson 9")
 
-# # Recap 1a
+# Recap 1a
 
-# window2 = turtle.Screen()
-
-
-# # Recap 1b
-
-# window2.setup(600, 400)
+window2 = turtle.Screen()
 
 
-# # Recap 2
+# Recap 1b
 
-# t = turtle.Turtle()
-# t.shape("turtle")
-# t.fillcolor("#FF8000")
-# t.seth(0)
-# t.pendown()
-# while True:
-#     for i in range(4):
-#         t.forward(100)
-#         t.left(90)
-#     break
+window2.setup(600, 400)
 
 
-# # Recap 3
+# Recap 2
 
-# notT = turtle.Turtle()
-# notT.shape("turtle")
-# notT.fillcolor("#FF007F")
-# notT.seth(0)
-# notT.pendown()
-# for i in range(5):
-#     notT.forward(100)
-#     notT.left(72)
-# window2.mainloop()
+t = turtle.Turtle()
+t.shape("turtle")
+t.fillcolor("#FF8000")
+t.seth(0)
+t.pendown()
+while True:
+    for i in range(4):
+        t.forward(100)
+        t.left(90)
+    break
+
+
+# Recap 3
+
+notT = turtle.Turtle()
+notT.shape("turtle")
+notT.fillcolor("#FF007F")
+notT.seth(0)
+notT.pendown()
+for i in range(5):
+    notT.forward(100)
+    notT.left(72)
+window2.mainloop()
 
 
 # Task 1
