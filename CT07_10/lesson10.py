@@ -15,3 +15,4 @@ window2.mainloop()
 # Recap 2
 
 t = turtle.Turtle()
+t.shape(turtle)
