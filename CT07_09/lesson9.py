@@ -41,8 +41,8 @@ Sally.goto(0, -250)
 Sally.write("Sally", align = "center", font = ('Ariel', 20))
 
 
-Sally = turtle.Turtle()
-Sally.penup()
+John = turtle.Turtle()
+John.penup()
 Sally.shape("turtle")
 Sally.color("#FF0000")
 Sally.seth(90)
