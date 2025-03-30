@@ -57,7 +57,7 @@ Bob.penup()
 Bob.shape("turtle")
 Bob.color("#FFFFFF")
 Bob.seth(90)
-Bob.goto(-200, -250)
+Bob.goto(200, 250)
 Bob.write("Bob", align = "center", font = ('Ariel', 20))
 
 
