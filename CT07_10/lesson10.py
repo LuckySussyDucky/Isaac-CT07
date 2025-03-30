@@ -3,10 +3,10 @@ print("Hello from lesson 9")
 
 # Recap 1a
 
-window = turtle.Screen()
+window2 = turtle.Screen()
 
 
 # Recap 1b
 
-window.setup(width = 600, height = 400)
-window.mainloop()
+window2.setup(width = 600, height = 400)
+window2.mainloop()
