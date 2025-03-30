@@ -62,3 +62,5 @@ notT.fillcolor("#FF007F")
 notT.seth(0)
 
 square()
+
+mainloop
