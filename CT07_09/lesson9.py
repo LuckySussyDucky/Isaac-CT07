@@ -27,7 +27,7 @@ pen.goto(-300, -250)
 pen.pendown()
 pen.seth(0)
 pen.forward(600)
-pen.hideturtle
+pen.hideturtle()
 
 
 # Task 1d
