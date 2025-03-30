@@ -76,7 +76,7 @@ Sally.pendown()
 John.pendown()
 while True:
     if Sally.ycor() < y_axis:
-        Sally.seth(random.randint(75,))
+        Sally.seth(random.randint(75,115))
 
 
 
