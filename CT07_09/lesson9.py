@@ -82,9 +82,8 @@ while True:
     Bob.seth(random.randint(75,115))
     Bob.forward(random.randint(1,20))
     if Sally.ycor() < y_axis:
-        if Sally.ycor() > y_axis:
-            winner = "Sally"
-            break
+        winner = "Sally"
+        break
     elif John.ycor() < y_axis:
         if John.ycor() > y_axis:
             winner = "John"
