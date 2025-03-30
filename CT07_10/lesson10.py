@@ -8,5 +8,5 @@ window2 = turtle.Screen()
 
 # Recap 1b
 
-window2.setup(width = 600, height = 400)
+window2.setup(600, 400)
 window2.mainloop()
