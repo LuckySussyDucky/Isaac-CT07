@@ -15,6 +15,9 @@ window2.mainloop()
 # Recap 2
 
 t = turtle.Turtle()
-t.shape(turtle)
+t.shape("turtle")
 t.fillcolor("#FF8000")
 t.seth(0)
+while True:
+    for i in range():
+        
