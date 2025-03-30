@@ -7,4 +7,6 @@ window = turtle.Screen()
 window.mainloop
 
 
-# Recap 1a
+# Recap 1b
+
+Window
