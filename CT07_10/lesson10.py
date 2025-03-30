@@ -32,7 +32,7 @@ notT.shape("turtle")
 notT.fillcolor("#FF007F")
 notT.seth(0)
 notT.pendown()
-for i in range(4):
+for i in range(5):
     notT.forward(100)
     notT.left(72)
 window2.mainloop()
