@@ -1,3 +1,4 @@
+import random
 import turtle
 print("Hello from lesson 9")
 
@@ -67,6 +68,17 @@ guessWinner = input("Guess the winner! ")
 
 
 # Task 1g
+
+winner = ""
+x_axis = 100
+Bob.pendown()
+Sally.pendown()
+John.pendown()
+
+
+
+
+
 
 
 
