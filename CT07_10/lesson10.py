@@ -44,3 +44,5 @@ def alert():
     print("Motion Detected")
 
 alert()
+alert()
+alert()
