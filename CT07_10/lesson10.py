@@ -10,3 +10,4 @@ window2 = turtle.Screen()
 
 window2.setup(600, 400)
 window2.mainloop()
+
