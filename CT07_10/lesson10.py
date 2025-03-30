@@ -9,7 +9,6 @@ window2 = turtle.Screen()
 # Recap 1b
 
 window2.setup(600, 400)
-window2.mainloop()
 
 
 # Recap 2
@@ -24,3 +23,4 @@ while True:
         t.forward(100)
         t.left(90)
     break
+window2.mainloop()
