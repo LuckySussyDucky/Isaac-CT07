@@ -18,7 +18,8 @@ t = turtle.Turtle()
 t.shape("turtle")
 t.fillcolor("#FF8000")
 t.seth(0)
+t.pendown()
 while True:
-    for i in range():
+    for i in range(4):
         t.forward(100)
         t.left(90)
