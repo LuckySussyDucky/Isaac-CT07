@@ -36,3 +36,6 @@ for i in range(5):
     notT.forward(100)
     notT.left(72)
 window2.mainloop()
+
+
+# T
