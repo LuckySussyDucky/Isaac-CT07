@@ -83,7 +83,7 @@ while True:
         John.forward(random.randint(1,20))
     elif Sally.ycor() < y_axis:
         Bob.seth(random.randint(75,115))
-        Sally.forward(random.randint(1,20))
+        Bob.forward(random.randint(1,20))
 
 
 
