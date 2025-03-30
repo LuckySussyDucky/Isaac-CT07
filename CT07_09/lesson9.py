@@ -78,8 +78,8 @@ while True:
     if Sally.ycor() < y_axis:
         Sally.seth(random.randint(75,115))
         Sally.forward(random.randint(1,20))
-    elif Sally.ycor() < y_axis:
-        Sally.seth(random.randint(75,115))
+    elif John.ycor() < y_axis:
+        John.seth(random.randint(75,115))
         Sally.forward(random.randint(1,20))
 
 
