@@ -41,4 +41,4 @@ window2.mainloop()
 # Task 1
 
 def alert():
-    print("")
+    print("Motion Dected")
