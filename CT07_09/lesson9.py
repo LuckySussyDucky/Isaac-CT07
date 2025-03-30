@@ -85,13 +85,11 @@ while True:
         winner = "Sally"
         break
     elif John.ycor() < y_axis:
-        if John.ycor() > y_axis:
-            winner = "John"
-            break
+        winner = "John"
+        break
     elif Bob.ycor() < y_axis:
-        if Bob.ycor() > y_axis:
-            winner = "Bob"
-            break
+        winner = "Bob"
+        break
 
 
 # Task 1h
