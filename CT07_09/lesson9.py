@@ -63,6 +63,6 @@ Bob.write("Bob", align = "center", font = ('Ariel', 20))
 
 # Task 1f
 
-guessWinner = input
+guessWinner = input("")
 
 window.mainloop()
