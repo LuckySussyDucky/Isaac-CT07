@@ -14,4 +14,4 @@ window2.mainloop()
 
 # Recap 2
 
-turtle.Turtle()
+t = turtle.Turtle()
