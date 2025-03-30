@@ -70,12 +70,13 @@ guessWinner = input("Guess the winner! ")
 # Task 1g
 
 winner = ""
-x_axis = 100
+y_axis = 250
 Bob.pendown()
 Sally.pendown()
 John.pendown()
-
-
+while True:
+    if Sally.ycor() < y_axis:
+        Slly.seth
 
 
 
