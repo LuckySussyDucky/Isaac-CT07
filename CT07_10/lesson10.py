@@ -24,3 +24,6 @@ while True:
         t.left(90)
     break
 window2.mainloop()
+
+
+# Recap 3
