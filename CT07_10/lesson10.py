@@ -9,4 +9,4 @@ window.mainloop
 
 # Recap 1b
 
-Window
+window.setup(width = 600)
