@@ -16,4 +16,4 @@ window2.mainloop()
 
 t = turtle.Turtle()
 t.shape(turtle)
-t.fillcolor(FF8000)
+t.fillcolor("#FF8000")
