@@ -77,13 +77,13 @@ John.pendown()
 while True:
     Sally.seth(random.randint(75,115))
     Sally.forward(random.randint(1,20))
+    John.seth(random.randint(75,115))
+    John.forward(random.randint(1,20))
     if Sally.ycor() < y_axis:
         if Sally.ycor() > y_axis:
             winner = "Sally"
             break
     elif John.ycor() < y_axis:
-        John.seth(random.randint(75,115))
-        John.forward(random.randint(1,20))
         if John.ycor() > y_axis:
             winner = "John"
             break
