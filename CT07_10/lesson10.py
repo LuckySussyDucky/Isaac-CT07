@@ -35,6 +35,6 @@ notT.pendown()
 while True:
     for i in range(4):
         notT.forward(100)
-        notT.left(90)
+        notT.left(72)
     break
-window2.mainloop()a
+window2.mainloop()
