@@ -20,6 +20,6 @@ t.fillcolor("#FF8000")
 t.seth(0)
 while True:
     for i in range():
-        t.pendown
+        t.pendown()
         t.forward(100)
         t.left(90)
