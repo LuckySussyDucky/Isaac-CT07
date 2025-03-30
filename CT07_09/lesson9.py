@@ -45,8 +45,8 @@ John = turtle.Turtle()
 John.penup()
 John.shape("turtle")
 John.color("#FF0000")
-Sally.seth(90)
-Sally.goto(0, -250)
+John.seth(90)
+John.goto(0, -250)
 John.write("Sally", align = "center", font = ('Ariel', 20))
 
 
