@@ -29,12 +29,10 @@ while True:
 
 notT = turtle.Turtle()
 notT.shape("turtle")
-notT.fillcolor("#FF8000")
+notT.fillcolor("#FF007F")
 notT.seth(0)
 notT.pendown()
-while True:
-    for i in range(4):
-        notT.forward(100)
-        notT.left(72)
-    break
+for i in range(4):
+    notT.forward(100)
+    notT.left(72)
 window2.mainloop()
