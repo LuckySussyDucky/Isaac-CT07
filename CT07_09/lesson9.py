@@ -51,12 +51,15 @@ John.seth(90)
 John.goto(-200, -250)
 John.write("John", align = "center", font = ('Ariel', 20))
 
-John = turtle.Turtle()
-John.penup()
-John.shape("turtle")
-John.color("#0000FF")
-John.seth(90)
-John.goto(-200, -250)
-John.write("John", align = "center", font = ('Ariel', 20))
+
+Bob = turtle.Turtle()
+Bob.penup()
+Bob.shape("turtle")
+Bob.color("#0000FF")
+Bob.seth(90)
+Bob.goto(-200, -250)
+Bob.write("Bob", align = "center", font = ('Ariel', 20))
+
+
 
 window.mainloop()
