@@ -58,6 +58,5 @@ def square():
 window2 = turtle.Screen()
 window2.setup(600, 400)
 notT = turtle.Turtle()
-notT.shape("turtle")
 notT.fillcolor("#FF007F")
 notT.seth(0)
