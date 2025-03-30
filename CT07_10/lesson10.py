@@ -43,5 +43,4 @@ window2.mainloop()
 def alert():
     print("Motion Detected")
 
-alert(
-)
+alert()
