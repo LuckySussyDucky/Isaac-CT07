@@ -61,6 +61,8 @@ Bob.goto(200, -250)
 Bob.write("Bob", align = "center", font = ('Ariel', 20))
 
 
-# Task
+# Task 1f
+
+
 
 window.mainloop()
