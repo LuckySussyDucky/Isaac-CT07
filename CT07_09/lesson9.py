@@ -43,11 +43,11 @@ Sally.write("Sally", align = "center", font = ('Ariel', 20))
 
 John = turtle.Turtle()
 John.penup()
-Sally.shape("turtle")
+John.shape("turtle")
 John.color("#FF0000")
 Sally.seth(90)
 Sally.goto(0, -250)
-Sally.write("Sally", align = "center", font = ('Ariel', 20))
+John.write("Sally", align = "center", font = ('Ariel', 20))
 
 
 window.mainloop()
