@@ -96,7 +96,7 @@ def isElderly(age):
         print("Such a fool to come here! You are nor worthy for our 1 cent discount! ")
 
 isElderly(30)
-isElderly
+isElderly(70)
 
 
 
