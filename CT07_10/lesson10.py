@@ -139,8 +139,8 @@ for i in range(100):
 def randomGen(num):
     bagOfnumbers = [
 ]
-    min = 1
-    max = 100
+    min = 100
+    max = 1
     for i in range(num):
         number = random.randint(1,100)
         bagOfnumbers.append(number)
