@@ -120,7 +120,7 @@ print("The turtle coordinates after drawing is: " + str(xcor) + ", " + str(ycor)
 def WhatsAppME(number):
     print("WhatsApp me at https://wa.me/" + number)
 
-WhatsAppME()
+WhatsAppME(82667414)
 
 
 
