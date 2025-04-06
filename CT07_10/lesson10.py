@@ -68,6 +68,7 @@ square(20)
 
 def multiply(num1, num2):
     answer = num1 * num2
+    print(answer)
 
 multiply(3, 5)
     
