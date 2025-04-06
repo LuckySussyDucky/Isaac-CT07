@@ -55,6 +55,7 @@ def square(length):
     for i in range(4):
         notT.forward(length)
         notT.left(90)
+        
 window2 = turtle.Screen()
 window2.setup(600, 400)
 notT = turtle.Turtle()
