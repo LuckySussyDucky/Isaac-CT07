@@ -123,7 +123,8 @@ def WhatsAppME(number):
 
 WhatsAppME(82667414)
 
-
+for i in range(100):
+    random.randint
 
 
 
