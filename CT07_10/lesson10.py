@@ -111,7 +111,7 @@ def notTcoordinates(name):
     ycor = name.ycor()
     return xcor, ycor
 
-
+xcor, ycor = turtle
 
 
 
