@@ -134,7 +134,7 @@ for i in range(100):
         number = number + lastSeven
     allNumbers.append(number)
     number = ""
-
+print(allNumbers)
         
 
 
