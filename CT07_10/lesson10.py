@@ -106,10 +106,10 @@ isElderly(70)
 
 # Task 6
 
-def notTcoordinates(axisX, axisY):
+def notTcoordinates(name):
     xcor = notT.xcor()
     ycor = notT.ycor()
-    
+
 
 
 
