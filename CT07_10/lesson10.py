@@ -50,7 +50,7 @@ alert()
 
 # Task 2
 
-def square():
+def square(length):
     notT.pendown()
     for i in range(4):
         notT.forward(20)
