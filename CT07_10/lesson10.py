@@ -141,7 +141,8 @@ def randomGen(num):
 ]
     min = 100
     max = 1
-    average = 9
+    
+    average = 0
     for i in range(num):
         number = random.randint(1,100)
         bagOfnumbers.append(number)
