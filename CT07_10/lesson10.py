@@ -132,7 +132,7 @@ for i in range(100):
         number = number + lastSeven
     WhatsAppME(number)
     number = ""
-print(allNumbers)
+
         
 
 
