@@ -111,7 +111,8 @@ def turtleCoordinates(name):
     ycor = name.ycor()
     return xcor, ycor
 
-xcor, ycor = turtleCoordinates
+xcor, ycor = turtleCoordinates(notT)
+
 
 
 
