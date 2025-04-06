@@ -61,7 +61,7 @@ window2.setup(600, 400)
 notT = turtle.Turtle()
 notT.fillcolor("#FF007F")
 notT.seth(0)
-notT
+notT.pen
 
 
 # Task 3
