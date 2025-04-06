@@ -63,4 +63,6 @@ notT.seth(0)
 
 square(20)
 
+
+
 window2.mainloop()
