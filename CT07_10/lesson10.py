@@ -53,7 +53,7 @@ alert()
 def square(length):
     notT.pendown()
     for i in range(4):
-        notT.forward(20)
+        notT.forward(length)
         notT.left(90)
 window2 = turtle.Screen()
 window2.setup(600, 400)
@@ -61,6 +61,6 @@ notT = turtle.Turtle()
 notT.fillcolor("#FF007F")
 notT.seth(0)
 
-square()
+square(20)
 
 window2.mainloop()
