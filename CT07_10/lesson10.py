@@ -64,5 +64,10 @@ notT.seth(0)
 square(20)
 
 
+# Task 3
+
+def multiply(3, 5):
+    
+
 
 window2.mainloop()
