@@ -95,7 +95,7 @@ def isElderly(age):
     if age > 65:
          return True
 
-age = input    
+age = input("What is your age? ")    
 if isElderly(int(age)):
     print("You are worthy for our 1 cent discount! ")
 else:
