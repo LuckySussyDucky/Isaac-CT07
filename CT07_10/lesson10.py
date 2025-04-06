@@ -89,7 +89,9 @@ moveableSquare(-50, 50)
 
 # Task 5
 
-
+def isElderly(age):
+    if age < 65:
+        print
 
 
 
