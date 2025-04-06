@@ -136,8 +136,11 @@ for i in range(100):
 
 # Task 8
 
+def randomGen(num):
 
-
+    for i in range(num):
+        random.randint()
+        
         
 
 
