@@ -118,7 +118,7 @@ print("The turtle coordinates after drawing is: " + str(xcor) + ", " + str(ycor)
 # Task 7
 
 def WhatsAppME(number):
-    print("WhatsApp me at https://wa.me/" + str(number))
+    print("WhatsApp me at https://wa.me/65" + str(number))
 
 WhatsAppME(82667414)
 
