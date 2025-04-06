@@ -141,7 +141,7 @@ def randomGen(num):
 ]
     for i in range(num):
         number = random.randint(1,100)
-        bag
+        bagOfnumbers.append(number)
         
         
 
