@@ -147,7 +147,8 @@ def randomGen(num):
         if number > max:
             max = number
         if number < min:
-            m
+            min = number
+        
 
         
         
