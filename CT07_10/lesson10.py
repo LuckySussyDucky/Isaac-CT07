@@ -75,7 +75,7 @@ multiply(3, 5)
 
 # Task 4
 
-def square(length):
+def square(axisX, axisY):
     notT.pendown()
     for i in range(4):
         notT.forward(length)
