@@ -164,9 +164,11 @@ randomGen(99)
 # Task 9
 
 def computerMove():
-    num = random.randint
+    num = random.randint(1, 3)
     if num == 1:
         print("Computer chose scissors")
+    elif num == 2:
+        print
 
 
 
