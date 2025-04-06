@@ -172,7 +172,7 @@ def computerMove():
     else:
         print("Computer chose paper.")
 
-playersMove = input("What do you choose: Rock, Paper or Scissors ")
+playersMove = input("What do you choose (Rock, Paper or Scissors): ")
 
 
 
