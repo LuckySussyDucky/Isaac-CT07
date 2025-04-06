@@ -93,10 +93,12 @@ moveableSquare(50, -50)
 
 def isElderly(age):
     if age > 65:
-        print("You are worthy for our 1 cent discount! ")
-    else:
-        print("Such a fool to come here! You are not worthy for our 1 cent discount! ")
-
+         return True
+    
+if isElderly(int(age)):
+    print("You are worthy for our 1 cent discount! ")
+else:
+    print("Such a fool to come here! You are not worthy for our 1 cent discount! ")
 isElderly(30)
 isElderly(70)
 
