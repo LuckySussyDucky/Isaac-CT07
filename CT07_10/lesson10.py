@@ -157,7 +157,7 @@ def randomGen(num):
     print(min)
     print(average)
 
-
+randomGen(99)
 
 
 
