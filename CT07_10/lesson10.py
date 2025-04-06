@@ -85,7 +85,7 @@ def moveableSquare(axisX, axisY):
 moveableSquare(-50, -50)
 moveableSquare(50, 50)
 moveableSquare(-50, 50)
-moveableSquare(-50, 50)
+moveableSquare(50, -50)
 
 
 # Task 5
