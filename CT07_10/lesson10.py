@@ -123,8 +123,6 @@ def WhatsAppME(number):
 
 WhatsAppME(82667414)
 
-allNumbers = [
-]
 number = ""
 for i in range(100):
     firstDigit = str(random.randint(8, 9))
@@ -133,7 +131,6 @@ for i in range(100):
         lastSeven = str(random.randint(0, 9))
         number = number + lastSeven
     WhatsAppME(number)
-    allNumbers.append(number)
     number = ""
 print(allNumbers)
         
