@@ -150,6 +150,7 @@ def randomGen(num):
             max = number
         if number < min:
             min = number
+        totalAmount = totalamount + number
 
 
         
