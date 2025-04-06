@@ -146,6 +146,8 @@ def randomGen(num):
         bagOfnumbers.append(number)
         if number > max:
             max = number
+        if number < min:
+            m
 
         
         
