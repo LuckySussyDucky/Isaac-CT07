@@ -139,7 +139,7 @@ for i in range(100):
 def randomGen(num):
 
     for i in range(num):
-        random.randint()
+        random.randint(1,100)
         
         
 
