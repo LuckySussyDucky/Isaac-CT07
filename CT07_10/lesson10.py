@@ -75,6 +75,7 @@ multiply(3, 5)
 # Task 4
 
 def moveableSquare(axisX, axisY):
+    notT.penup()
     notT.goto(axisX, axisY)
     notT.pendown()
     for i in range(4):
