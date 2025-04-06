@@ -62,8 +62,6 @@ notT = turtle.Turtle()
 notT.fillcolor("#FF007F")
 notT.seth(0)
 
-square(20)
-
 
 # Task 3
 
