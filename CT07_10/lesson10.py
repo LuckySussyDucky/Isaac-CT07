@@ -172,7 +172,7 @@ def computerMove():
     else:
         print("Computer chose paper.")
 
-compu
+computerMove()
 
 
 
