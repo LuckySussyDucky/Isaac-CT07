@@ -105,4 +105,9 @@ isElderly(70)
 
 
 
+
+
+
+
+
 window2.mainloop()
