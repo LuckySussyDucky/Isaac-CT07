@@ -82,7 +82,7 @@ def moveableSquare(axisX, axisY):
         notT.forward(20)
         notT.left(90)
 
-moveableSquare()
+moveableSquare(-50, 50)
 
 
 
