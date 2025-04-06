@@ -115,6 +115,8 @@ xcor, ycor = turtleCoordinates(notT)
 print("The turtle coordinates after drawing is: " + str(xcor) + ", " + str(ycor))
 
 
+# Task 7
+
 
 
 
