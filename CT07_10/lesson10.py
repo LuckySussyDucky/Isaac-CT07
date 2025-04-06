@@ -95,6 +95,8 @@ def isElderly(age):
     else:
         print("Such a fool to come here! You are nor worthy for our 1 cent discount! ")
 
+isElderly()
+
 
 
 window2.mainloop()
