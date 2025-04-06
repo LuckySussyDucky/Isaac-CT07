@@ -106,7 +106,8 @@ isElderly(70)
 
 # Task 6
 
-xcor = xcor()
+xcor = notT.xcor()
+
 
 
 
