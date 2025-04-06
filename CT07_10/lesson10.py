@@ -66,7 +66,8 @@ square(20)
 
 # Task 3
 
-def multiply(3, 5):
+def multiply(num1, num2):
+    answer = num1
     
 
 
