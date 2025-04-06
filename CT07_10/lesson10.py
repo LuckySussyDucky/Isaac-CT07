@@ -87,6 +87,10 @@ def moveableSquare(axisX, axisY):
 moveableSquare(-50, 50)
 
 
+# Task 5
+
+
+
 
 
 window2.mainloop()
