@@ -74,4 +74,9 @@ multiply(3, 5)
 
 
 # Task 4
+
+
+
+
+
 window2.mainloop()
