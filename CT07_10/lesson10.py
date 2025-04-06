@@ -121,4 +121,6 @@ print("The turtle coordinates after drawing is: " + str(xcor) + ", " + str(ycor)
 
 
 
+
+
 window2.mainloop()
