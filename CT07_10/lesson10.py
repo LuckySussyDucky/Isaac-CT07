@@ -151,7 +151,8 @@ def randomGen(num):
         if number < min:
             min = number
         totalAmount = totalAmount + number
-    average = totalAmount 
+    average = totalAmount / num
+    
 
 
         
