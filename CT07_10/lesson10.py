@@ -112,7 +112,7 @@ def turtleCoordinates(name):
     return xcor, ycor
 
 xcor, ycor = turtleCoordinates(notT)
-print("The turtle coordinates is")
+print("The turtle coordinates after drawing is " + str(xcor ))
 
 
 
