@@ -79,8 +79,10 @@ def square(axisX, axisY):
     notT.goto(x, y)
     notT.pendown()
     for i in range(4):
-        notT.forward(length)
+        notT.forward(20)
         notT.left(90)
+
+
 
 
 
