@@ -93,7 +93,7 @@ def isElderly(age):
     if age < 65:
         print("You are worthy for our 1 cent discount! ")
     else:
-        print("Such a fool to come here! You are nor worthy for out")
+        print("Such a fool to come here! You are nor worthy for our 1 cent")
 
 
 
