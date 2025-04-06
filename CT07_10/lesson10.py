@@ -170,7 +170,7 @@ def computerMove():
     elif num == 2:
         print("Computer chose rock")
     else:
-        print("Compu")
+        print("Computer chose paper.")
 
 
 
