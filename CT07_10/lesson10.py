@@ -154,7 +154,7 @@ def randomGen(num):
     average = totalAmount / num
     print(max)
     print(min)
-    
+    print(average)
 
 
 
