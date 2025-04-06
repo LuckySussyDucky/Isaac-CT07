@@ -133,6 +133,8 @@ for i in range(100):
         lastSeven = str(random.randint(0, 9))
         number = number + lastSeven
     allNumbers.append(number)
+    number = ""
+
         
 
 
