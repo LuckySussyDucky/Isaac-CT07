@@ -168,7 +168,7 @@ def computerMove():
     if num == 1:
         print("Computer chose scissors")
     elif num == 2:
-        print("Computhink")
+        print("Computer chose rock")
 
 
 
