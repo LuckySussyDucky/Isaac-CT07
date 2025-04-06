@@ -82,6 +82,9 @@ def moveableSquare(axisX, axisY):
         notT.left(90)
     notT.penup()
 
+moveableSquare(-50, -50)
+moveableSquare(50, 50)
+moveableSquare(-50, 50)
 moveableSquare(-50, 50)
 
 
