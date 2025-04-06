@@ -55,7 +55,7 @@ def square(length):
     for i in range(4):
         notT.forward(length)
         notT.left(90)
-        
+        notT.penup()
 window2 = turtle.Screen()
 window2.setup(600, 400)
 notT = turtle.Turtle()
@@ -82,6 +82,7 @@ def moveableSquare(axisX, axisY):
     for i in range(4):
         notT.forward(20)
         notT.left(90)
+        notT.penup()
 
 moveableSquare(-50, 50)
 
