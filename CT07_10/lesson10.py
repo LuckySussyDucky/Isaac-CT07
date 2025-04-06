@@ -132,7 +132,7 @@ for i in range(100):
     for i in range(7):
         lastSeven = str(random.randint(0, 9))
         number = number + lastSeven
-    allNumbers.append
+    allNumbers.append(number)
         
 
 
