@@ -126,8 +126,10 @@ WhatsAppME(82667414)
 number = ""
 for i in range(100):
     firstDigit = str(random.randint(8, 9))
+    
     for i in range(7):
         lastSeven = str(random.randint(0, 9))
+        number = number + lastSeven
         
 
 
