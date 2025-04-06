@@ -106,12 +106,12 @@ isElderly(70)
 
 # Task 6
 
-def notTcoordinates(name):
+def turtleCoordinates(name):
     xcor = name.xcor()
     ycor = name.ycor()
     return xcor, ycor
 
-xcor, ycor = turtle
+xcor, ycor = turtleCoordinates
 
 
 
