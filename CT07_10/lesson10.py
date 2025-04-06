@@ -1,4 +1,5 @@
 import turtle
+import random
 print("Hello from lesson 9")
 
 # # Recap 1a
