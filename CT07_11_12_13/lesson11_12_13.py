@@ -12,7 +12,7 @@ num = 1
 for i in range(6):
     if diceGuess(num):
         num = num + 1
-        
+        print("")
     
 
     
