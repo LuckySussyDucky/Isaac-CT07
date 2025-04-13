@@ -37,7 +37,8 @@ def printBoard():
                 print(cell, end = " ")
             else:
                 print(" " + cellNumber + " ", end = " ")
-                
+            if cellNumber % 3 != 0:
+                print(" ")
 
 
                 
