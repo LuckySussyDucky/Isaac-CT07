@@ -37,6 +37,7 @@ def printBoard():
                 print(cell, end = " ")
             else:
                 print(" " + cellNumber + " ", end = " ")
+                
 
 
                 
