@@ -176,6 +176,18 @@ def RNGcomputerMove():
         print("Computer chose: Paper!")
         computerMove = "Paper"
 
+def determineWinner():
+    if playersMove == computerMove:
+        print("Tie!")
+    elif playersMove == "Rock" and computerMove == "Scissors":
+        print("You win!")
+    elif playersMove == "Scissors" and computerMove == "Paper":
+        print("You win!")
+    elif playersMove == "Paper" and computerMove == "Rock":
+        print("You win!")
+    else: 
+        print("You lost!")
+
 playersMove = input("What do you choose (Rock, Paper or Scissors): ")
 if playersMove == "Rock" or "Paper" or "Scissors":
     print(" ")
@@ -183,9 +195,6 @@ else:
     print("Invalid response!")
 RNGcomputerMove()
 print("You chose: " +  playersMove + "!")
-
-
-
 determineWinner()
 
 
