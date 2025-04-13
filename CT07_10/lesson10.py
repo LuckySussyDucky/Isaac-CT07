@@ -181,6 +181,7 @@ if playersMove != "Rock" or "Paper" or "Scissors":
     print("Invalid response! ")
 RNGcomputerMove()
 print("You chose: " +  playersMove + "!")
+
 def determineWinner():
     if playersMove == computerMove:
         print("Tie!")
@@ -192,6 +193,7 @@ def determineWinner():
         print("You win!")
     else: 
         print("You lost!")
+        
 determineWinner()
 
 
