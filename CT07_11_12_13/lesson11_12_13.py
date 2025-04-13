@@ -29,5 +29,5 @@ for i in range(3):
     board.append(row)
 
 def printBoard():
-    cellNumber = 1
+    global cellNumber
     
