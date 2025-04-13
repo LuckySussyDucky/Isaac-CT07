@@ -41,7 +41,7 @@ def printBoard():
                 print(" | ", end = " ")
             cellNumber = cellNumber + 1
         if cellNumber <= 9:
-            print("\n---------")
+            print("\n------------------------")
 
 printBoard()
 
