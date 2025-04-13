@@ -192,7 +192,7 @@ def determineWinner():
         print("You win!")
     else: 
         print("You lost!")
-dte
+determineWinner()
 
 
 
