@@ -34,7 +34,7 @@ def printBoard():
     for row in board:
         for cell in row:
             if cell != " ":
-                print
+                print(cell)
             else:
                 print(" " + cellNumber + " ")
                 \
