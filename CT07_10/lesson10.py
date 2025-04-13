@@ -185,7 +185,7 @@ def determineWinner():
     if playersMove == computerMove:
         print("Tie!")
     elif playersMove == "Rock" and computerMove == "Scissors":
-        print("You wins!")
+        print("You win!")
 
 
 
