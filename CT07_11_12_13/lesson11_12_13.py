@@ -30,3 +30,4 @@ window.bgcolor("#FFFFFF")
 
 
 
+window.mainloop()
