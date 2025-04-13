@@ -182,7 +182,9 @@ if playersMove != "Rock" or "Paper" or "Scissors":
 RNGcomputerMove()
 print("You chose: " +  playersMove + "!")
 def determineWinner():
-    if playersMove == "Rock" and computerMove == "Paper":
+    if playersMove == computerMove:
+        print("Tie!")
+    elif"Rock" and computerMove == "Paper":
         print("Computer wins!")
 
 
