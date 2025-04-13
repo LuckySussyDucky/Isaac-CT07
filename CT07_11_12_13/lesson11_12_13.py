@@ -6,7 +6,8 @@ print("Hello from lesson 11_12_13")
 
 def diceGuess(guess):
     num = random.randint(0,7)
-    guess == num
+    return guess == num
+
     
 # Task 1
 
