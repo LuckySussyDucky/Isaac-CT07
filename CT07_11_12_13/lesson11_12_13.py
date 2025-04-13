@@ -40,7 +40,7 @@ def printBoard():
             if cellNumber % 3 != 0:
                 print(" | ", end = " ")
             cellNumber = cellNumber + 1
-            
+        
 
 
                 
