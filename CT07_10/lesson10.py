@@ -197,6 +197,7 @@ while True:
     RNGcomputerMove()
     print("You chose: " +  playersMove + "!")
     determineWinner()
+    print(" ")
     userInput = input("Would you want to play again? (Yes/No): ").lower()
     if userInput == "no":
         break
