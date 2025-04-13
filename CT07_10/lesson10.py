@@ -165,7 +165,7 @@ randomGen(99)
 
 def RNGcomputerMove():
     global computerMove
-    num = random.randint(0, 4)
+    num = random.randint(1, 3)
     if num == 1:
         print("Computer chose: Scissors!")
         computerMove = "Scissors"
