@@ -188,15 +188,20 @@ def determineWinner():
     else: 
         print("You lost!")
 
-playersMove = input("What do you choose (Rock, Paper or Scissors): ")
-if playersMove == "Rock" or "Paper" or "Scissors":
-    print(" ")
-else:
-    print("Invalid response!")
-RNGcomputerMove()
-print("You chose: " +  playersMove + "!")
-determineWinner()
-userInput = input("Would you want to play again? (yes/no): ")
+while True:
+    playersMove = input("What do you choose (Rock, Paper or Scissors): ")
+    if playersMove == "Rock" or "Paper" or "Scissors":
+        print(" ")
+    else:
+        print("Invalid response!")
+    RNGcomputerMove()
+    print("You chose: " +  playersMove + "!")
+    determineWinner()
+    userInput = input("Would you want to play again? (Yes/No): ").lower()
+    if userInput == "no":
+        break
+
+
 
 
 
