@@ -196,7 +196,7 @@ else:
 RNGcomputerMove()
 print("You chose: " +  playersMove + "!")
 determineWinner()
-input
+input("w")
 
 
 
