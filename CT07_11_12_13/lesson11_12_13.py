@@ -8,9 +8,10 @@ def diceGuess(guess):
     randomNum = random.randint(0,7)
     return guess == randomNum
 
-num = 
+num = 1
 for i in range(6):
     diceGuess(num)
+    
 
     
 # Task 1
