@@ -186,7 +186,7 @@ def determineWinner():
         print("Tie!")
     elif playersMove == "Rock" and computerMove == "Scissors":
         print("You win!")
-    elif playersMove == "Scissors" and computerMove == "Scissors":
+    elif playersMove == "Scissors" and computerMove == "Paper":
         print("You win!")
 
 
