@@ -174,7 +174,7 @@ def computerMove():
 
 playersMove = input("What do you choose (Rock, Paper or Scissors): ")
 if playersMove != "Rock" or "Paper" or "Scissors":
-    print("Not")
+    print("Invalid response")
 
 
 
