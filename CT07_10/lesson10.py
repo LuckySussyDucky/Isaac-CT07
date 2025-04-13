@@ -166,7 +166,7 @@ randomGen(99)
 def computerMove():
     num = random.randint(1, 3)
     if num == 1:
-        print("Computer chose scissors.")
+        print("Computer chose: Scissors.")
     elif num == 2:
         print("Computer chose rock.")
     else:
