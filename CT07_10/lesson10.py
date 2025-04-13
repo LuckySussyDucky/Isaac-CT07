@@ -191,7 +191,7 @@ def determineWinner():
     elif playersMove == "Paper" and computerMove == "Rock":
         print("You win!")
     else: 
-        print
+        print("You lost!")
 
 
 
