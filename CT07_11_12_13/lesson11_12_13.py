@@ -4,7 +4,9 @@ print("Hello from lesson 11_12_13")
 
 # Recap 1
 
-diceGuess()
+def diceGuess(guess):
+    
+    
 # Task 1
 
 window = turtle.Screen()
