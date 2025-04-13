@@ -196,7 +196,7 @@ else:
 RNGcomputerMove()
 print("You chose: " +  playersMove + "!")
 determineWinner()
-input("Would you want to play again? (yes)")
+input("Would you want to play again? (yes/no): ")
 
 
 
