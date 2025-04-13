@@ -21,7 +21,7 @@ print("Hello from lesson 11_12_13")
 
 print(" 1 | 2 | 3 ")
 print(" --------- ")
-print(" 4 | 2 | 3 ")
+print(" 4 | 5 | 6 ")
 print(" --------- ")
 print(" 1 | 2 | 3 ")
 print(" --------- ")
