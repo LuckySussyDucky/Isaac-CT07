@@ -5,7 +5,7 @@ print("Hello from lesson 11_12_13")
 # Recap 1
 
 def diceGuess(guess):
-    
+    num = random.randint(0,7)
     
 # Task 1
 
