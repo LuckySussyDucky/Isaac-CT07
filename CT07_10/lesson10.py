@@ -163,21 +163,27 @@ randomGen(99)
 
 # Task 9
 
-def computerMove():
+def RNGcomputerMove():
+    global computerMove
     num = random.randint(1, 3)
     if num == 1:
         print("Computer chose: Scissors!")
+        computerMove = "Scissors"
     elif num == 2:
         print("Computer chose: Rock!")
+        computerMove = "Rock"
     else:
         print("Computer chose: Paper!")
+        computerMove = "Paper"
 
 playersMove = input("What do you choose (Rock, Paper or Scissors): ")
 if playersMove != "Rock" or "Paper" or "Scissors":
     print("Invalid response! ")
-computerMove()
+RNGcomputerMove()
 print("You chose: " +  playersMove + "!")
-
+def determineWinner():
+    if playersMove == "Rock" and computerMove == "Paper":
+        print
 
 
 
