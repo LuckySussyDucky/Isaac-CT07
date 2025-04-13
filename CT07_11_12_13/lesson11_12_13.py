@@ -20,7 +20,4 @@ print("Hello from lesson 11_12_13")
 # Task 1
 
 board = [
-    [' ', ' ', ' ']
-    [' ', ' ', ' ']
-    [' ', ' ', ' ']
 ]
