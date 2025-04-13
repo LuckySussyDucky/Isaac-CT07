@@ -190,6 +190,8 @@ def determineWinner():
         print("You win!")
     elif playersMove == "Paper" and computerMove == "Rock":
         print("You win!")
+    else: 
+        print
 
 
 
