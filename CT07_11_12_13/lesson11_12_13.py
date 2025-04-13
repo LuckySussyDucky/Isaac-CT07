@@ -34,7 +34,7 @@ def printBoard():
     for row in board:
         for cell in row:
             if cell != " ":
-                print(cell, end = " ")
+                print(str(cell), end = " ")
             else:
                 print("", cellNumber, "", end = " ")
             if cellNumber % 3 != 0:
