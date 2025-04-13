@@ -39,7 +39,7 @@ def printBoard():
                 print(" " + cellNumber + " ", end = " ")
             if cellNumber % 3 != 0:
                 print(" | ", end = " ")
-                
+            increase
 
 
                 
