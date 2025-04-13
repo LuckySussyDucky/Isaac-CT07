@@ -180,7 +180,7 @@ playersMove = input("What do you choose (Rock, Paper or Scissors): ")
 if playersMove == "Rock" or "Paper" or "Scissors":
     print("Invalid response! ")
 else:
-    print
+    print("Invalid Response")
 RNGcomputerMove()
 print("You chose: " +  playersMove + "!")
 
