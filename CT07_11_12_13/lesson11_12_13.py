@@ -6,7 +6,7 @@ print("Hello from lesson 11_12_13")
 
 def diceGuess(guess):
     randomNum = random.randint(0,7)
-    return guess == num
+    return guess == randomNnum
 
 for i in range(6):
     diceGuess(num)
