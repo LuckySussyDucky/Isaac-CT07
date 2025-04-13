@@ -14,7 +14,7 @@ for i in range(6):
         num = num + 1
         print("Correct!")
     else:
-        print
+        print("Wrong!")
     
 
     
