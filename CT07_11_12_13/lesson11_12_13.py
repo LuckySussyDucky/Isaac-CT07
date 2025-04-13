@@ -26,4 +26,4 @@ for i in range(3):
 ]
     for i in range(3):
         row.append(' ')
-    boa
+    board.append(row)
