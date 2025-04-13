@@ -43,7 +43,7 @@ def printBoard():
         if cellNumber <= 9:
             print("---------")
 
-def
+printBoard()
 
 
                 
