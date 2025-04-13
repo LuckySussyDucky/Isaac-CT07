@@ -21,7 +21,6 @@ print("Hello from lesson 11_12_13")
 
 board = [
 ]
-row = [
-]
 for i in range(3):
+    
     row.append(' ')
