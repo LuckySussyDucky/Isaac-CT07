@@ -170,13 +170,13 @@ def computerMove():
     elif num == 2:
         print("Computer chose: Rock!")
     else:
-        print("Computer chose: Paper.")
+        print("Computer chose: Paper!")
 
 playersMove = input("What do you choose (Rock, Paper or Scissors): ")
 if playersMove != "Rock" or "Paper" or "Scissors":
     print("Invalid response! ")
 computerMove()
-print("You chose: " +  playersMove)
+print("You chose: " +  playersMove + "!")
 
 
 
