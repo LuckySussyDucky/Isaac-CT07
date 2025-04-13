@@ -8,6 +8,7 @@ def diceGuess(guess):
     num = random.randint(0,7)
     return guess == num
 
+diceGuess(1)
     
 # Task 1
 
