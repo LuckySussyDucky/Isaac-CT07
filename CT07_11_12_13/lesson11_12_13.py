@@ -30,4 +30,5 @@ for i in range(3):
 
 def printBoard():
     global cellNumber
+    cellNumber = 1
     
