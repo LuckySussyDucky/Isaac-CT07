@@ -10,8 +10,9 @@ def diceGuess(guess):
 
 num = 1
 for i in range(6):
-    diceGuess(num)
-    num = num + 1
+    if diceGuess(num):
+        num = num + 1
+        
     
 
     
