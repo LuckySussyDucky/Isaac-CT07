@@ -19,4 +19,4 @@ print("Hello from lesson 11_12_13")
     
 # Task 1
 
-print(" 1 ")
+print(" 1 | 2 | 3")
