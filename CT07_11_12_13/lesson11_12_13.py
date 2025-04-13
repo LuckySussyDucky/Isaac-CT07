@@ -27,3 +27,7 @@ for i in range(3):
     for i in range(3):
         row.append(' ')
     board.append(row)
+
+def printBoard():
+    cellNumber = 1
+    
