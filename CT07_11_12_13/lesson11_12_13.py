@@ -7,6 +7,7 @@ print("Hello from lesson 11_12_13")
 def diceGuess(guess):
     num = random.randint(0,7)
     
+    
 # Task 1
 
 window = turtle.Screen()
