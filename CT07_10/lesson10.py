@@ -184,17 +184,7 @@ else:
 RNGcomputerMove()
 print("You chose: " +  playersMove + "!")
 
-def determineWinner():
-    if playersMove == computerMove:
-        print("Tie!")
-    elif playersMove == "Rock" and computerMove == "Scissors":
-        print("You win!")
-    elif playersMove == "Scissors" and computerMove == "Paper":
-        print("You win!")
-    elif playersMove == "Paper" and computerMove == "Rock":
-        print("You win!")
-    else: 
-        print("You lost!")
+
 
 determineWinner()
 
