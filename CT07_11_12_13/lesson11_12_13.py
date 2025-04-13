@@ -31,4 +31,12 @@ for i in range(3):
 def printBoard():
     global cellNumber
     cellNumber = 1
+    for row in board:
+        for cell in row:
+            if cell != " ":
+                print
+            else:
+                print(" " + cellNumber + " ")
+                \
+
     
