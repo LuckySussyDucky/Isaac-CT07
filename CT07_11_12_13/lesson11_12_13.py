@@ -52,7 +52,7 @@ def playerMove():
     move = int(moveInput) - 1
     row = move // 3
     column = move % 3
-    board[row][column] = "X"
+    board[row][column] = 'X'
 
 
 while True:
