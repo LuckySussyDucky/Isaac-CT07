@@ -49,7 +49,7 @@ def printBoard(board):
 
 def playerMove():
     moveInput = input("Enter your move: (1 - 9): ")
-    
+    move = 
 
 board = initialiseBoard()       
 printBoard(board)
