@@ -82,7 +82,7 @@ def checkWin(board):
 
 def switchPlayer():
     if currentPlayer == 'X':
-        return
+        return 
     
 
 board = initialiseBoard()
