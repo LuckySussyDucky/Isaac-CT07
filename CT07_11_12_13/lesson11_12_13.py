@@ -57,7 +57,7 @@ def playerMove():
 
 board = initialiseBoard()       
 printBoard(board)
-
+playerMove()
 
 
                 
