@@ -62,7 +62,7 @@ def playerMove():
 
 def checkWin():
     winConditions = [
-[board[0][0], board[0][1],]
+[board[0][0], board[0][1], board[0][2]]
 ]
 
 
