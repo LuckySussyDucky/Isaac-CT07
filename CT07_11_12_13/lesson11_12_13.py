@@ -48,7 +48,7 @@ def printBoard(board):
     print("\n")
 
 def playerMove():
-    input = input("What square")
+    input = input("Enter your move")
 
 board = initialiseBoard()       
 printBoard(board)
