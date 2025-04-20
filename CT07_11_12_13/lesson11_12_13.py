@@ -76,7 +76,7 @@ def checkWin(board):
     [board[0][0], board[1][1], board[2][2]],
 ]
     for formula in winConditions:
-        if formula[0] == formula[1] == formula[2] and formula != ' ':
+        if formula[0] == formula[1] == formula[2] and formula[0] != ' ':
             return True
     return False
     
