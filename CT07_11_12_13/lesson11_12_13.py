@@ -98,7 +98,9 @@ currentPlayer = 'X'
 while True:
     printBoard(board)
     playerMove(currentPlayer)
-    if checkWin(board):
+    if checkFull(board) == False and checkWin(board) == False:
+        
+    elif checkWin(board):
         printBoard(board)
         print("Player " + currentPlayer + ". You win!")
         break
