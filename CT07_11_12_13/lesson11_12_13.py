@@ -89,6 +89,7 @@ while True:
     if checkWin(board):
         printBoard(board)
         print("you win")
+        break
 
 
                 
