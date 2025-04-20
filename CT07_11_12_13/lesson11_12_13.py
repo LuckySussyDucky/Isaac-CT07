@@ -98,8 +98,8 @@ currentPlayer = 'X'
 while True:
     printBoard(board)
     playerMove(currentPlayer)
-    if checkFull(board) == False:
-        if checkWin(board) == False:
+    if checkFull(board):
+        if checkWin(board):
             print("It's a draw!")
             break
     elif checkWin(board):
