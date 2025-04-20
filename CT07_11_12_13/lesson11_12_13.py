@@ -61,7 +61,8 @@ def playerMove():
         print("Invalid. Please put a number from 1 - 9.")
 
 def checkWin():
-    winConditions
+    winConditions = [
+]
 
 
 board = initialiseBoard()
