@@ -49,7 +49,7 @@ def printBoard(board):
 
 def playerMove():
     moveInput = input("Enter your move: (1 - 9): ")
-    if moveInput.isdigit() and :
+    if moveInput.isdigit() and moveInput < 10:
         move = int(moveInput) - 1
         row = move // 3
         column = move % 3
