@@ -51,7 +51,7 @@ def playerMove():
     moveInput = input("Enter your move: (1 - 9): ")
     move = int(moveInput) - 1
     row = move // 3
-    coll
+    column = 
 
 board = initialiseBoard()       
 printBoard(board)
