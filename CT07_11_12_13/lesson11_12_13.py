@@ -84,7 +84,8 @@ def checkFull():
     for row in board:
         for cell in row:
             if cell == ' ':
-                
+                return True
+            return False
 
 def switchPlayer(currentPlayer):
     if currentPlayer == 'X':
