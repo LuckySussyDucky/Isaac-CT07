@@ -55,7 +55,7 @@ def playerMove():
         column = move % 3
         board[row][column] = 'X'
     else:
-        print("")
+        print("Invalid.")
 
 
 board = initialiseBoard()
