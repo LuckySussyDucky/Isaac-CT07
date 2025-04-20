@@ -100,7 +100,7 @@ while True:
     playerMove(currentPlayer)
     if checkFull(board) == False:
         if checkWin(board) == False:
-        print("It's a draw!")
+            print("It's a draw!")
     elif checkWin(board):
         printBoard(board)
         print("Player " + currentPlayer + ". You win!")
