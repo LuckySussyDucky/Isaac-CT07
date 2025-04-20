@@ -82,6 +82,7 @@ def checkWin(board):
     
 
 board = initialiseBoard()
+current
 while True:
     printBoard(board)
     playerMove()
