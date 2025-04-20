@@ -56,7 +56,7 @@ def playerMove():
         if board[row][column] == "X" or "O":
             board[row][column] = 'X'
         else:
-            print("That spot is already taken")
+            print("That spot is already taken. Please choose another<")
     else:
         print("Invalid. Please put a number from 1 - 9  ")
 
