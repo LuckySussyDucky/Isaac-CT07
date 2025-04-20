@@ -80,7 +80,7 @@ def checkWin(board):
             return True
     return False
 
-def checkFull():
+def checkFull(board):
     for row in board:
         for cell in row:
             if cell == ' ':
