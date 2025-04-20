@@ -33,6 +33,7 @@ def initialiseBoard():
 def printBoard(board):
     global cellNumber
     print("\nBoard Layout:")
+    print("\n")
     cellNumber = 1
     for row in board:
         for cell in row:
