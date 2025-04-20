@@ -93,7 +93,7 @@ while True:
     playerMove(currentPlayer)
     if checkWin(board):
         printBoard(board)
-        print("Player " + currentPlayer + ". ")
+        print("Player " + currentPlayer + ". You win!")
         break
     currentPlayer = switchPlayer(currentPlayer)
 
