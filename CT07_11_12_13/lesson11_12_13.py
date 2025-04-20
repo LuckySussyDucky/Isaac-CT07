@@ -62,6 +62,7 @@ def playerMove():
 
 def checkWin():
     winConditions = [
+
 ]
 
 
