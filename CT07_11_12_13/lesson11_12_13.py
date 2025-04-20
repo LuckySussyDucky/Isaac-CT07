@@ -79,6 +79,10 @@ def checkWin(board):
         if formula[0] == formula[1] == formula[2] and formula[0] != ' ':
             return True
     return False
+
+def switchPlayer():
+    if currentPlayer == 'X':
+        return
     
 
 board = initialiseBoard()
