@@ -57,9 +57,9 @@ def playerMove():
 
 board = initialiseBoard()
 
-
-printBoard(board)
-playerMove()
+while True:
+    printBoard(board)
+    playerMove()
 
 
                 
