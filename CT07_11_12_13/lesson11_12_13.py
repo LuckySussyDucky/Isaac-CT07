@@ -80,6 +80,12 @@ def checkWin(board):
             return True
     return False
 
+def checkFull():
+    for row in board:
+        for cell in row:
+            if cell == ' ':
+                
+
 def switchPlayer(currentPlayer):
     if currentPlayer == 'X':
         return 'O'
