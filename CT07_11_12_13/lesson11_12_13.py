@@ -30,7 +30,7 @@ def initialiseBoard():
         board.append(row)
     return board
 
-def printBoard():
+def printBoard(board):
     global cellNumber
     cellNumber = 1
     for row in board:
