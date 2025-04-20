@@ -21,12 +21,13 @@ print("Hello from lesson 11_12_13")
 
 board = [
 ]
-for i in range(3):
-    row = [
-]
+def initialiseBoard():
     for i in range(3):
-        row.append(' ')
-    board.append(row)
+        row = [
+]
+        for i in range(3):
+            row.append(' ')
+        board.append(row)
 
 def printBoard():
     global cellNumber
