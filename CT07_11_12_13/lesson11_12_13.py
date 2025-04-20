@@ -55,7 +55,7 @@ def playerMove():
         column = move % 3
         board[row][column] = 'X'
     else:
-        print("Invalid. Please put a number from ")
+        print("Invalid. Please put a number from 1 - 9  ")
 
 
 board = initialiseBoard()
