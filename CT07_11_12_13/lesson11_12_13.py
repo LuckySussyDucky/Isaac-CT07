@@ -55,7 +55,9 @@ def playerMove():
     board[row][column] = "X"
 
 
-board = initialiseBoard()       
+board = initialiseBoard()
+
+
 printBoard(board)
 playerMove()
 
