@@ -86,6 +86,8 @@ board = initialiseBoard()
 while True:
     printBoard(board)
     playerMove()
+    if checkWin(board):
+        
 
 
                 
