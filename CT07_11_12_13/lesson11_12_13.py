@@ -58,7 +58,7 @@ def playerMove():
         else:
             print("That spot is already taken. Please choose another.")
     else:
-        print("Invalid. Please put a number from 1 - 9  ")
+        print("Invalid. Please put a number from 1 - 9.")
 
 
 board = initialiseBoard()
