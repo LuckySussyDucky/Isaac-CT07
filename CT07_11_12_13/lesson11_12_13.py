@@ -81,7 +81,6 @@ def checkWin(board):
     return False
     
 
-
 board = initialiseBoard()
 while True:
     printBoard(board)
