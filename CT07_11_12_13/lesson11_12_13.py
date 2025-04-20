@@ -60,7 +60,8 @@ def playerMove():
     else:
         print("Invalid. Please put a number from 1 - 9.")
 
-def checkWin():
+def checkWin(board):
+    global winConditions
     winConditions = [
     # Horizontal
     [board[0][0], board[0][1], board[0][2]],
@@ -74,7 +75,10 @@ def checkWin():
     [board[0][2], board[1][1], board[2][0]],
     [board[0][0], board[1][1], board[2][2]],
 ]
-
+    for formula in winConditions:
+        if formula[0] == formula[1] == formula[2] and formula != ' ':
+            return True
+    return False
     
 
 
