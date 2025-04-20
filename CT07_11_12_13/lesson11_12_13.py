@@ -54,7 +54,7 @@ def playerMove(currentPlayer):
         row = move // 3
         column = move % 3
         if board[row][column] == "X" or "O":
-            board[row][column] = 'X'
+            board[row][column] = currentPlayer
         else:
             print("That spot is already taken. Please choose another.")
     else:
