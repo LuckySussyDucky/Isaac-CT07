@@ -84,7 +84,7 @@ def checkWin(board):
 board = initialiseBoard()
 while True:
     printBoard(board)
-    playerMove()
+    playerMove(board)
     if checkWin(board):
         printBoard(board)
         print("you win")
