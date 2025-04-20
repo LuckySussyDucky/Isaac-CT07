@@ -28,6 +28,7 @@ def initialiseBoard():
         for i in range(3):
             row.append(' ')
         board.append(row)
+    return board
 
 def printBoard():
     global cellNumber
