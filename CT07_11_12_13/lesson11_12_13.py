@@ -52,7 +52,7 @@ def playerMove():
     move = int(moveInput) - 1
     row = move // 3
     column = move % 3
-    board[row]
+    board[row][column] = ""
 
 
 board = initialiseBoard()       
