@@ -55,6 +55,7 @@ def playerMove():
         column = move % 3
         if board[row][column] == "X" or "O":
             board[row][column] = 'X'
+        else:
     else:
         print("Invalid. Please put a number from 1 - 9  ")
 
