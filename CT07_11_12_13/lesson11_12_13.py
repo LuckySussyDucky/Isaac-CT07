@@ -95,7 +95,7 @@ while True:
         printBoard(board)
         print("you win")
         break
-    currentPlayer = sw
+    currentPlayer = switchPlayer(currentPlayer)
 
 
                 
