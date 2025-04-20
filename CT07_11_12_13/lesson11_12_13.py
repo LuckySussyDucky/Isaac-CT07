@@ -80,7 +80,7 @@ def checkWin(board):
             return True
     return False
 
-def switchPlayer():
+def switchPlayer(currentPlayer):
     if currentPlayer == 'X':
         return 'O'
     return 'X'
@@ -95,6 +95,7 @@ while True:
         printBoard(board)
         print("you win")
         break
+    
 
 
                 
