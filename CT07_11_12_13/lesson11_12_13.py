@@ -101,6 +101,7 @@ while True:
     if checkFull(board) == False:
         if checkWin(board) == False:
             print("It's a draw!")
+            break
     elif checkWin(board):
         printBoard(board)
         print("Player " + currentPlayer + ". You win!")
