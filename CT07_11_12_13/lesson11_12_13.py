@@ -87,7 +87,7 @@ while True:
     printBoard(board)
     playerMove()
     if checkWin(board):
-        
+        print
 
 
                 
