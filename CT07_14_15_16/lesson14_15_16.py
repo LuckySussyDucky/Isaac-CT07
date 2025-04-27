@@ -21,7 +21,8 @@ paddle1Y = (screenH // 2) - (paddleH // 2)
 paddle2X = (screenW - paddleW - 10)
 paddle2Y = (screenH // 2) - (paddleH // 2)
 
-ball_
+ball_radius = 10
+ball
 
 running = True
 while running:
