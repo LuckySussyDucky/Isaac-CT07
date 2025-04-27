@@ -11,7 +11,8 @@ pygame.display.set_caption("Pong Game")
 
 paddleW = 20
 paddleY = 100
-paddle1X
+paddle1X = 10
+paddle1Y = (screen_height // 2) - (paddleY // 2)
 
 running = True
 while running:
