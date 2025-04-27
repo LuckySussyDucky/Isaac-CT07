@@ -32,7 +32,7 @@ while running:
     if keys[pygame.K_UP] and paddle2Y > 0:
         paddle2Y = paddle2Y - 1
     if keys[pygame.K_DOWN] and paddle2Y < screenH - paddleH:
-        paddle1Y = paddle1Y + 1
+        paddle2Y = paddle2Y + 1
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
