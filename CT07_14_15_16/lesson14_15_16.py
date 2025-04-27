@@ -10,6 +10,7 @@ screen = pygame.display.set_mode((screenW, screenH))
 pygame.display.set_caption("Pong Game")
 
 white = (255, 255, 255)
+black = ()
 paddleW = 20
 paddleH = 100
 paddle1X = 10
@@ -25,7 +26,7 @@ while running:
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1Y > 0:
         paddle1Y = paddle1Y - 1
-        
+
     if keys[pygame.K_s] and paddle1Y < screenH - paddleH:
         paddle1Y = paddle1Y + 1
 
