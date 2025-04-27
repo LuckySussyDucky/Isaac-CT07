@@ -13,6 +13,6 @@ while running:
     for event in pygame.event.game():
         if event.type == pygame.QUIT:
             runnning = False
-            
+    pygame.display.flip()
 
 
