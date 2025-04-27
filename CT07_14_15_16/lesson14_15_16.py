@@ -3,6 +3,7 @@ print("Hello from lesson 14_15_16")
 
 # Task 1
 
+runing
 pygame.init()
 
 screen_width = 800
