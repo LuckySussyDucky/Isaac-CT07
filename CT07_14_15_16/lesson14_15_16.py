@@ -5,4 +5,5 @@ print("Hello from lesson 14_15_16")
 
 pygame.init()
 
-screen_
+screen_width = 800
+h
