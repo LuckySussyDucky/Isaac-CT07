@@ -12,6 +12,7 @@ while running:
     pygame.display.set_caption("Pong Game")
     for event in pygame.event.game():
         if event.type == pygame.QUIT:
+            runnning = False
             
 
 
