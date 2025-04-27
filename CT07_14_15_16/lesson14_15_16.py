@@ -33,7 +33,7 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             runnning = False
-    pygame.display.flip()
+    screen.flip()
 pygame.quit
 
 
