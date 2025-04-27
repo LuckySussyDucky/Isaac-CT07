@@ -21,6 +21,8 @@ paddle1Y = (screenH // 2) - (paddleH // 2)
 paddle2X = (screenW - paddleW - 10)
 paddle2Y = (screenH // 2) - (paddleH // 2)
 
+ball_
+
 running = True
 while running:
     screen.fill(green)
