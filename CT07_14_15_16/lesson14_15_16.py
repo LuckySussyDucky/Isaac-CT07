@@ -5,7 +5,7 @@ print("Hello from lesson 14_15_16")
 
 pygame.init()
 screenW = 800
-screenHheight = 600
+screenH = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Pong Game")
 
@@ -24,7 +24,7 @@ while running:
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1Y > 0:
         paddle1Y = paddle1Y - 1
-    if keys[pygame.K_s] and paddle1Y < screenH:
+    if keys[pygame.K_s] and paddle1Y < screenH - paddleH:
         paddle1Y = paddle1Y + 1
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
