@@ -29,7 +29,7 @@ while running:
         paddle1Y = paddle1Y - 1
     if keys[pygame.K_s] and paddle1Y < screenH - paddleH:
         paddle1Y = paddle1Y + 1
-    if keys[pygame.K_w] and paddle1Y > 0:
+    if keys[pygame.K_] and paddle1Y > 0:
         paddle1Y = paddle1Y - 1
     if keys[pygame.K_s] and paddle1Y < screenH - paddleH:
         paddle1Y = paddle1Y + 1
