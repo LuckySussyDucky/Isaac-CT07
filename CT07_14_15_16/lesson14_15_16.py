@@ -18,7 +18,7 @@ paddle1Y = (screen_height // 2) - (paddleH // 2)
 running = True
 while running:
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
-    for event in pygame.event.game():
+    for event in pygame.event.get():
         if event.type == pygame.QUIT:
             runnning = False
     pygame.display.flip()
