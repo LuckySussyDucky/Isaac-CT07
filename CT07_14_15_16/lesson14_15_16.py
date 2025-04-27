@@ -1,2 +1,2 @@
-import pygame
+import 
 print("Hello from lesson 14_15_16")
