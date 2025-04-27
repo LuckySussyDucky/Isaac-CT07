@@ -20,6 +20,7 @@ paddle2Y = (screenH // 2) - (paddleH // 2)
 
 running = True
 while running:
+    screen.fill(black)
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
 
@@ -28,7 +29,6 @@ while running:
         paddle1Y = paddle1Y - 1
     if keys[pygame.K_s] and paddle1Y < screenH - paddleH:
         paddle1Y = paddle1Y + 1
-    screen.fill(black)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
