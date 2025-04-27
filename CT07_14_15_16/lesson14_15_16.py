@@ -20,7 +20,7 @@ paddle2Y = (screenH // 2) - (paddleH // 2)
 
 running = True
 while running:
-    screen.fill(black)
+    screen.fill(green)
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
 
