@@ -90,7 +90,8 @@ def checkFull(board):
 def switchPlayer(currentPlayer):
     if currentPlayer == 'X':
         return 'O'
-    return 'X'
+    else:
+        return 'X'
     
 
 board = initialiseBoard()
