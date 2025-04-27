@@ -23,7 +23,8 @@ paddle2Y = (screenH // 2) - (paddleH // 2)
 
 ballR = 10
 ballX = screenW // 2
-ballY
+ballY = screenH // 2
+
 
 running = True
 while running:
