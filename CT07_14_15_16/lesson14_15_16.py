@@ -11,10 +11,13 @@ pygame.display.set_caption("Pong Game")
 
 white = (255, 255, 255)
 green = (0, 153, 0)
+
 paddleW = 20
 paddleH = 100
+
 paddle1X = 10
 paddle1Y = (screenH // 2) - (paddleH // 2)
+
 paddle2X = (screenW - paddleW - 10)
 paddle2Y = (screenH // 2) - (paddleH // 2)
 
