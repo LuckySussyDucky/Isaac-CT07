@@ -25,12 +25,12 @@ ballR = 10
 ballX = screenW // 2
 ballY = screenH // 2
 
-
 running = True
 while running:
     screen.fill(green)
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
+    
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1Y > 0:
