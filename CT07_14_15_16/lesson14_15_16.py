@@ -14,7 +14,7 @@ paddleW = 20
 paddleH = 100
 paddle1X = 10
 paddle1Y = (screen_height // 2) - (paddleH // 2)
-
+paddle2X
 
 running = True
 while running:
