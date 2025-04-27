@@ -10,7 +10,7 @@ screen = pygame.display.set_mode((screenW, screenH))
 pygame.display.set_caption("Pong Game")
 
 white = (255, 255, 255)
-black = (0, 0, 0)
+green = (0, 153, 0)
 paddleW = 20
 paddleH = 100
 paddle1X = 10
