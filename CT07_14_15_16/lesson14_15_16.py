@@ -24,7 +24,7 @@ while running:
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1Y > 0:
         paddle1Y = paddle1Y - 1
-    if keys and paddle1Y < 600:
+    if keys[pygame.K_s] and paddle1Y < 600:
         paddle1Y = paddle1Y + 1
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
