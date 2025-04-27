@@ -28,6 +28,7 @@ while running:
         paddle1Y = paddle1Y - 1
     if keys[pygame.K_s] and paddle1Y < screenH - paddleH:
         paddle1Y = paddle1Y + 1
+    screen.fill
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
