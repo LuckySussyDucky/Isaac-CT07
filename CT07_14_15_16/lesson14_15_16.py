@@ -5,11 +5,7 @@ print("Hello from lesson 14_15_16")
 
 running = True
 while running:
-    pygame.init()
-    screen_width = 800
-    screen_height = 600
-    screen = pygame.display.set_mode((screen_width, screen_height))
-    pygame.display.set_caption("Pong Game")
+
     for event in pygame.event.game():
         if event.type == pygame.QUIT:
             runnning = False
