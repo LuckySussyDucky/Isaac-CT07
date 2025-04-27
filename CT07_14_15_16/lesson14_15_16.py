@@ -21,7 +21,7 @@ running = True
 while running:
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
-    keys
+    keys = 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             runnning = False
