@@ -6,7 +6,7 @@ print("Hello from lesson 14_15_16")
 pygame.init()
 screenW = 800
 screenH = 600
-screen = pygame.display.set_mode((screen_width, screen_height))
+screen = pygame.display.set_mode((screenW, screenH))
 pygame.display.set_caption("Pong Game")
 
 white = (255, 255, 255)
