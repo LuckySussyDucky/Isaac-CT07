@@ -15,6 +15,7 @@ paddleH = 100
 paddle1X = 10
 paddle1Y = (screen_height // 2) - (paddleH // 2)
 
+
 running = True
 while running:
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
