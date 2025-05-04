@@ -90,4 +90,4 @@ for i in list:
     if isEven(i):
         print(i + "is an even number.")
     else: 
-        print("It is an odd number.")
+        print(i + "is an odd number.")
