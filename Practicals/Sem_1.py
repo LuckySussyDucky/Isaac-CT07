@@ -65,3 +65,4 @@ print(counter, "August has the lowest sales of $" + str(lowestSale))
 
 # c)
 
+print(sum(daily_sales))
