@@ -65,4 +65,4 @@ print(counter, "August has the lowest sales of $" + str(lowestSale))
 
 # c)
 
-print("Average"(sum(daily_sales) / len(daily_sales)))
+print("Average daily sales for August is " (sum(daily_sales) / len(daily_sales)))
