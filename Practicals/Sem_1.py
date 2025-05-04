@@ -117,4 +117,4 @@ for i in list:
 
 
 def hi(num):
-    ret
+    return num*num
