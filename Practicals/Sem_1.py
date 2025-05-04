@@ -57,5 +57,5 @@ print(counter, "August has the highest sales of" , highestSale)
 
 lowestSale = highestSale
 for sales in daily_sales:
-    if sales < highestSale:
+    if sales < lowestSale:
         lowestSale = sales
