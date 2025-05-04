@@ -1,4 +1,5 @@
 # Term 1
+import random
 
 
 # Question 1
