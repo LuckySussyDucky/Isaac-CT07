@@ -64,3 +64,4 @@ print(counter, "August has the lowest sales of $" + str(lowestSale))
 
 
 # c)
+
