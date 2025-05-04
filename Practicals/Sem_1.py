@@ -49,4 +49,5 @@ highestSale = 0
 for sales in daily_sales:
     if sales > highestSale:
         highestSale = sales
-print(counter, "August has the highest sales of" , highestSale)
+daily_sales.index 
+print(hig, "August has the highest sales of" , highestSale)
