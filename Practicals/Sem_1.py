@@ -64,3 +64,6 @@ print(counter, "August has the lowest sales of $" + str(lowestSale))
 # c)
 
 print("Average daily sales for August is $" + str(round(sum(daily_sales) / len(daily_sales), 2)))
+
+
+# Question 2
