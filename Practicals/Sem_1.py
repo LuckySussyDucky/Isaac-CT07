@@ -51,6 +51,4 @@ for sales in daily_sales:
     if sales > highestSale:
         counter = counter + 1
         highestSale = sales
-    else:
-        counter = counter + 1
 print(counter, "August has the highest sales of" , highestSale)
