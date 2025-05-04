@@ -86,4 +86,5 @@ def isEven(num):
         return False
     
 for i in list:
-    is
+    isEven(i)
+    
