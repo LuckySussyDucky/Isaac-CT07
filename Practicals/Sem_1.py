@@ -61,3 +61,6 @@ for sales in daily_sales:
         lowestSale = sales
 counter = (daily_sales.index(min(daily_sales))) + 1
 print(counter, "August has the lowest sales of $" + str(lowestSale))
+
+
+# c)
