@@ -59,4 +59,4 @@ lowestSale = highestSale
 for sales in daily_sales:
     if sales < lowestSale:
         lowestSale = sales
-counter = (daily_sales)
+counter = (daily_sales.index(min(daily)))
