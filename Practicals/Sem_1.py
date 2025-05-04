@@ -60,4 +60,4 @@ for sales in daily_sales:
     if sales < lowestSale:
         lowestSale = sales
 counter = (daily_sales.index(min(daily_sales)))
-print(counter, "August has the highest sales of $" + lowestSale)
+print(counter, "August has the highest sales of $" + str(lowestSale))
