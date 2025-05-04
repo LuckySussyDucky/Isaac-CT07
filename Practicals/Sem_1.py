@@ -54,3 +54,5 @@ print(counter, "August has the highest sales of" , highestSale)
 
 
 # b)
+
+loe
