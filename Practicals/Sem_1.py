@@ -93,3 +93,28 @@ for i in list:
         print(str(i) + " is an even number.")
     else: 
         print(str(i) + " is an odd number.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def hi(num):
+    ret
