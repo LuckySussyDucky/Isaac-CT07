@@ -49,5 +49,6 @@ highestPrice = 0
 counter = 0 
 for prices in daily_sales:
     if prices > highestPrice:
+        counter = counter + 1
         highestPrice = prices
 print(highestPrice)
