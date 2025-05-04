@@ -49,5 +49,5 @@ highestSale = 0
 for sales in daily_sales:
     if sales > highestSale:
         highestSale = sales
-counter = daily_sales.index(maximum)
+counter = daily_sales.index(max(hi))
 print(highestSale, "August has the highest sales of" , highestSale)
