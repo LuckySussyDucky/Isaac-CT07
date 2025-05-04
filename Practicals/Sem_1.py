@@ -81,4 +81,6 @@ list1 = [2944, 5490, 2357, 2619, 1177, 451, 8299, 2533, 4682, 6040,
 
 def isEven(num):
     if num % 2 == 0:
+        return True
+    else:
         
