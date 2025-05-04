@@ -49,4 +49,4 @@ highestPrice = 0
 for prices in daily_sales:
     if prices > highestPrice:
         highestPrice = prices
-    
+print(highes)
