@@ -67,3 +67,4 @@ print("Average daily sales for August is $" + str(round(sum(daily_sales) / len(d
 
 
 # Question 2
+
