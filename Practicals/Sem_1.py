@@ -1,4 +1,5 @@
 import random
+
 # Question 1
 
 MonstersFought = 0
