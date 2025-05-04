@@ -51,4 +51,4 @@ for prices in daily_sales:
     if prices > highestPrice:
         counter = counter + 1
         highestPrice = prices
-print()
+print(counter + "")
