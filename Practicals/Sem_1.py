@@ -88,6 +88,6 @@ def isEven(num):
 for i in list:
     isEven(i)
     if isEven(i):
-        print(i + " is an even number.")
+        print(str(i) + " is an even number.")
     else: 
         print(i + " is an odd number.")
