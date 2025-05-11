@@ -46,6 +46,6 @@ while running:
         if event.type == pygame.QUIT:
             runnning = False
     pygame.display.flip()
-pygame.quit
+pygame.quit()
 
 
