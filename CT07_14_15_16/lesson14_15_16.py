@@ -41,7 +41,7 @@ while running:
     paddleBox1 = pygame.Rect(paddle1X, paddle1Y, paddleW, paddleH)
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
     paddleBox2 = pygame.Rect(paddle2X, paddle2Y, paddleW, paddleH)
-    pygame.draw.circle(screen, white, (ballX, ballY), ballR)
+    # pygame.draw.circle(screen, white, (ballX, ballY), ballR)
 
     ballX = ballX + ballDX
     ballY = ballY + ballDY
