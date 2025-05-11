@@ -75,10 +75,10 @@ while running:
 
     if ballX >= screenW:
         player1Score = player1Score + 1
-        
+        ballDX = ballDX * -1
     if ballX <= 0:
         player2score = player2score + 1
-
+        ballDX = ballDX * -1
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             runnning = False
