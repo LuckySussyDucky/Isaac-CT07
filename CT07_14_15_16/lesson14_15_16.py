@@ -75,6 +75,8 @@ while running:
 
     if ballX >= screenW:
         player1Score = player1Score + 1
+    if ballX <= 0:
+        player
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
