@@ -38,8 +38,8 @@ while running:
     # screen.fill(green)
     screen.blit(BackgroundImage, (0, 0))
     screen.blit(TennisBallImage, (ballX - ballR, ballY - ballR))
+    screen.blit(TennisRacketImage, (paddle1X, paddle1Y))
     screen.blit(rotate(TennisRacketImage, 180), (paddle2X, paddle2Y))
-    screen.blit(TennisRacketImage, (paddle1X, paddle2Y))
 
     # pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
     paddleBox1 = pygame.Rect(paddle1X, paddle1Y, paddleW, paddleH)
