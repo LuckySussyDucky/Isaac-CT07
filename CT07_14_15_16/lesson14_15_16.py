@@ -80,7 +80,7 @@ while running:
         player1Score = player1Score + 1
         ballDX = ballDX * -1
     if ballX <= 0:
-        player2score = player2score + int(1)
+        player2score = player2score + 1
         ballDX = ballDX * -1
 
     player1Score = scoreFont.render("Player 1: " + str(player1Score), True, black)
