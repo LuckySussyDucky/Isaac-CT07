@@ -28,6 +28,8 @@ ballY = screenH // 2
 ballDX = 0.5
 ballDY = 0.5
 
+backgr
+
 running = True
 while running:
     screen.fill(green)
