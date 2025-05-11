@@ -29,7 +29,7 @@ ballDX = 0.5
 ballDY = 0.5
 
 backgroundImage = pygame.image.load("CT07_14_15_16/Grass Court.jpg")
-backgroundImage = pygame.image.load("CT07_14_15_16/Grass Court.jpg")
+TennisBallImage = pygame.image.load("CT07_14_15_16/Grass Court.jpg")
 
 running = True
 while running:
