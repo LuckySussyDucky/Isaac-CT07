@@ -28,7 +28,7 @@ ballY = screenH // 2
 ballDX = 0.5
 ballDY = 0.5
 
-backgroundImage = pygame.d
+backgroundImage = pygame.image.load
 
 running = True
 while running:
