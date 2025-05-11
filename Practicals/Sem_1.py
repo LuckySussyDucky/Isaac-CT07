@@ -116,6 +116,3 @@ for i in list:
 
 
 
-def hi(num):
-    return num*num
-print(hi(3))
