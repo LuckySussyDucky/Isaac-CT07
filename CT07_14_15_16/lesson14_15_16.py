@@ -39,7 +39,7 @@ while running:
     ballY = ballY + ballDY
 
     if ballY <= 0 or ballY  >= screenH:
-        ball = ballY - 1
+        ballDY = ballDY - 1
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1Y > 0:
