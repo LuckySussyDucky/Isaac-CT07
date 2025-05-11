@@ -33,7 +33,8 @@ BackgroundImage = pygame.image.load("CT07_14_15_16/Grass Court.jpg")
 TennisBallImage = pygame.image.load("CT07_14_15_16/Tennis Ball.png")
 TennisRacketImage = pygame.image.load("CT07_14_15_16/Tennis Racket.png")
 
-player1
+player1Score = 0
+player2score
 
 running = True
 while running:
