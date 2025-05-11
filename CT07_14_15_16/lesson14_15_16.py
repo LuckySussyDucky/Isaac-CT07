@@ -26,7 +26,7 @@ ballX = screenW // 2
 ballY = screenH // 2
 
 ballDX = 0.5
-ballDY = 
+ballDY = 0.5
 
 running = True
 while running:
