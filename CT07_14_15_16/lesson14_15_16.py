@@ -33,6 +33,8 @@ backgroundImage = pygame.image.load("CT07_14_15_16.py/Grass_Court.jpg")
 running = True
 while running:
     screen.fill(green)
+    
+
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
     paddleBox1 = pygame.Rect(paddle1X, paddle1Y, paddleW, paddleH)
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
