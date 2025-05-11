@@ -36,7 +36,7 @@ TennisRacketImage = pygame.image.load("CT07_14_15_16/Tennis Racket.png")
 player1Score = 0
 player2score = 0 
 
-scoreFont = pygame.font.Font
+scoreFont = pygame.font.Font(None, 32)
 
 running = True
 while running:
