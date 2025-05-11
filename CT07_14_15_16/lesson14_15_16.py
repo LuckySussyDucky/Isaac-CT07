@@ -84,7 +84,7 @@ while running:
         ballDX = ballDX * -1
 
     player1Score = scoreFont.render("Player 1: " + str(player1Score), True, black)
-    screen.blit(player)
+    screen.blit(player1Score, ())
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
