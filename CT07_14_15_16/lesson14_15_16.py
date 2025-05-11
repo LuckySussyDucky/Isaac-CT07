@@ -30,13 +30,14 @@ ballDY = 0.5
 
 BackgroundImage = pygame.image.load("CT07_14_15_16/Grass Court.jpg")
 TennisBallImage = pygame.image.load("CT07_14_15_16/Tennis Ball.png")
-TennisRacketImage = pygame.image.load("CT07_14_15_16/Tennis Ball.png")
+TennisRacketImage = pygame.image.load("CT07_14_15_16/Tennis Racket.png")
 
 running = True
 while running:
     # screen.fill(green)
     screen.blit(BackgroundImage, (0, 0))
     screen.blit(TennisBallImage, (ballX - ballR, ballY - ballR))
+    screen.blit(T)
 
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
     paddleBox1 = pygame.Rect(paddle1X, paddle1Y, paddleW, paddleH)
