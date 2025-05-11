@@ -37,7 +37,7 @@ while running:
     screen.blit(BackgroundImage, (0, 0))
     screen.blit(TennisBallImage, (paddle1X, paddle1Y))
 
-    # pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
+    pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
     paddleBox1 = pygame.Rect(paddle1X, paddle1Y, paddleW, paddleH)
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
     paddleBox2 = pygame.Rect(paddle2X, paddle2Y, paddleW, paddleH)
