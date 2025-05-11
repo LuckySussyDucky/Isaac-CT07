@@ -1,4 +1,5 @@
 import pygame
+from pygame.transform import rotate
 print("Hello from lesson 14_15_16")
 
 # Task 1
