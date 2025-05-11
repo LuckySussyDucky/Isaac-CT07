@@ -47,6 +47,8 @@ while running:
     
     if ballX <= paddleBox1.right + ballR and ballY >= paddleBox1.top and ballY <= paddleBox1.bottom:
         ballDX = ballDX * -1
+    if ballX <= paddleBox1.right + ballR and ballY >= paddleBox1.top and ballY <= paddleBox1.bottom:
+        ballDX = ballDX * -1
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1Y > 0:
