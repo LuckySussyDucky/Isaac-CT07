@@ -28,7 +28,7 @@ ballY = screenH // 2
 ballDX = 0.5
 ballDY = 0.5
 
-backgroundImage = pygame.image.load(screen.blit())
+backgroundImage = pygame.image.load(screen.blit(lesson14_15_16))
 
 running = True
 while running:
