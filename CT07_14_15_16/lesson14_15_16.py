@@ -12,6 +12,7 @@ pygame.display.set_caption("Pong Game")
 
 white = (255, 255, 255)
 green = (0, 153, 0)
+black = (0, 0, 0)
 
 paddleW = 20
 paddleH = 100
