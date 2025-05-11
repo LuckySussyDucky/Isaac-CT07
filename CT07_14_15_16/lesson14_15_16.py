@@ -32,7 +32,7 @@ running = True
 while running:
     screen.fill(green)
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
-    paddlepygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
+    paddle1Box = pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
     pygame.draw.circle(screen, white, (ballX, ballY), ballR)
 
