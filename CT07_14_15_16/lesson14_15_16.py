@@ -77,7 +77,7 @@ while running:
         paddle2Y = paddle2Y + 1
 
     if ballX >= screenW:
-        player1Score = player1Score + int(1)
+        player1Score = player1Score + 1
         ballDX = ballDX * -1
     if ballX <= 0:
         player2score = player2score + int(1)
