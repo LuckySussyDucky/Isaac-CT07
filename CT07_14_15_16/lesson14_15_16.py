@@ -73,6 +73,9 @@ while running:
     if keys[pygame.K_DOWN] and paddle2Y < screenH - paddleH:
         paddle2Y = paddle2Y + 1
 
+    if ballX >= screenW:
+        player
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             runnning = False
