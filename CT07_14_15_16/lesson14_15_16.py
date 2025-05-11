@@ -32,9 +32,9 @@ running = True
 while running:
     screen.fill(green)
     pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
-    paddleBox1 = pygame.draw.rect(screen, white, (paddle1X, paddle1Y, paddleW, paddleH))
+    paddleBox1 = pygame.draw.Rect(screen, (paddle1X, paddle1Y, paddleW, paddleH))
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
-    paddleBox2 = pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
+    paddleBox2 = pygame.draw.Rect(screen, (paddle2X, paddle2Y, paddleW, paddleH))
     pygame.draw.circle(screen, white, (ballX, ballY), ballR)
 
     ballX = ballX + ballDX
@@ -44,6 +44,9 @@ while running:
         ballDX = ballDX * -1
     if ballY <= 0 or ballY  >= screenH:
         ballDY = ballDY * -1
+    
+    if ballX <= paddleBox1.right + ballR and ballY >= paddleBox1.top and ballY <= paddleBox1.bottom:
+        ball
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1Y > 0:
