@@ -35,7 +35,7 @@ TennisBallImage = pygame.image.load("CT07_14_15_16/Tennis Ball.png")
 TennisRacketImage = pygame.image.load("CT07_14_15_16/Tennis Racket.png")
 
 player1Score = 0
-player2score = 0 
+player2Score = 0 
 
 scoreFont = pygame.font.Font(None, 32)
 
@@ -80,7 +80,7 @@ while running:
         player1Score += 1
         ballDX = ballDX * -1
     if ballX <= 0:
-        player2score = player2score + 1
+        player2Score += 1
         ballDX = ballDX * -1
 
     player1Score = scoreFont.render("Player 1: " + str(player1Score), True, black)
