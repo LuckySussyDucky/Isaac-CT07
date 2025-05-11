@@ -38,6 +38,8 @@ while running:
     ballX = ballX + ballDX
     ballY = ballY + ballDY
 
+    
+
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1Y > 0:
         paddle1Y = paddle1Y - 1
