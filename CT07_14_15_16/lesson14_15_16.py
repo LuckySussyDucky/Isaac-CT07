@@ -82,7 +82,7 @@ while running:
         player2score = player2score + 1
         ballDX = ballDX * -1
 
-    player1Score
+    player1Score = scoreFont.render()
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
