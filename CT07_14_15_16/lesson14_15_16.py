@@ -75,6 +75,7 @@ while running:
 
     if ballX >= screenW:
         player1Score = player1Score + 1
+        
     if ballX <= 0:
         player2score = player2score + 1
 
