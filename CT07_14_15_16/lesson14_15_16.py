@@ -35,6 +35,8 @@ while running:
     pygame.draw.rect(screen, white, (paddle2X, paddle2Y, paddleW, paddleH))
     pygame.draw.circle(screen, white, (ballX, ballY), ballR)
 
+    
+
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1Y > 0:
         paddle1Y = paddle1Y - 1
