@@ -74,7 +74,7 @@ while running:
         paddle2Y = paddle2Y + 1
 
     if ballX >= screenW:
-        player
+        player1Score = player1Score + 1
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
