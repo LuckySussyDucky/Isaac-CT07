@@ -86,7 +86,7 @@ while running:
         ballDX = ballDX * -1
         player1Score += 1
         print("Player 1 score: " + str(player1Score))
-        
+        ba
     if ballX <= 0:
         ballDX = ballDX * -1
         player2Score += 1
