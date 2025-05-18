@@ -41,7 +41,8 @@ player2Score = 0
 score_font = pygame.font.Font(None, 32)
 winner_font = pygame.font.Font(None, 64)
 
-
+player1_score_text = score_font.render("Player 1: " + str(player1Score), True, black)
+screen.blit(player1_score_text, (10,10))
 
 running = True
 while running:
