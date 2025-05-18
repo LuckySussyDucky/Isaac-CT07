@@ -90,14 +90,14 @@ while running:
         print("Player 1 score: " + str(player1Score))
         ballX = screenW // 2
         ballY = screenH // 2
-        pause == True
+        pause = True
     if ballX <= 0:
         ballDX = ballDX * -1
         player2Score += 1
         print("Player 2 score: " + str(player2Score))
         ballX = screenW // 2
         ballY = screenH // 2
-        pause == True
+        pause = True
 
     # player1Score = scoreFont.render("Player 1: " + str(player1Score), True, black)
     # screen.blit(player1Score, (10, 10))
