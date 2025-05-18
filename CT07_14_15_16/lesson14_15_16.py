@@ -62,7 +62,7 @@ while running:
     ballX = ballX + ballDX
     ballY = ballY + ballDY
 
-    # if ballX <= 0 or ballX >= screenW:
+    # if ballX <= 0 or ballX  >= screenW:
     #     ballDX = ballDX * -1
     if ballY <= 0 or ballY >= screenH:
         ballDY = ballDY * -1
