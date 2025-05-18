@@ -101,7 +101,7 @@ while running:
     if player1Score >= 3:
         screen.blit(player1_win_text, ((screenW // 2) - (player1_win_text.get_width // 2),(screenH // 2) - (player1_win_text.get_height)))
     if player2Score >= 3:
-        screen.blit(player2_win_text, ((screenW // 2) - (player2_win_text.get_width // 2),(screenH // 2) - (player1_win_text.get_height)))
+        screen.blit(player2_win_text, ((screenW // 2) - (player2_win_text.get_width // 2),(screenH // 2) - (player2_win_text.get_height)))
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
