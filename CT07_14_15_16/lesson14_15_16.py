@@ -45,7 +45,6 @@ winner_font = pygame.font.Font(None, 64)
 player1_win_text = winner_font.render("Player 1 won!", True, black)
 player2_win_text = winner_font.render("Player 2 won!", True, black)
 
-pause = True
 running = True
 
 while running:
@@ -90,7 +89,7 @@ while running:
         print("Player 1 score: " + str(player1Score))
         ballX = screenW // 2
         ballY = screenH // 2
-        pause = True
+        time.sleep(3)
     if ballX <= 0:
         ballDX = ballDX * -1
         player2Score += 1
