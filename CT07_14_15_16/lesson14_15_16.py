@@ -98,6 +98,8 @@ while running:
     player2_score_text = score_font.render("Player 2: " + str(player2Score), True, black)
     screen.blit(player2_score_text, (screenW - player2_score_text.get_width() - 10, 10))
 
+
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             runnning = False
