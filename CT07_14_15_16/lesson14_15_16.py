@@ -50,7 +50,7 @@ running = True
 
 while running:
     if pause == True:
-             time.sleep(3)
+        time.sleep(3)
     # screen.fill(green)
     screen.blit(BackgroundImage, (0, 0))
     screen.blit(TennisBallImage, (ballX - ballR, ballY - ballR))
@@ -92,6 +92,7 @@ while running:
         print("Player 1 score: " + str(player1Score))
         ballX = screenW // 2
         ballY = screenH // 2
+        pu
     if ballX <= 0:
         ballDX = ballDX * -1
         player2Score += 1
