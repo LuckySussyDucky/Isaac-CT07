@@ -97,7 +97,7 @@ while running:
         print("Player 2 score: " + str(player2Score))
         ballX = screenW // 2
         ballY = screenH // 2
-        pause = True
+        time.sleep(3)
 
     # player1Score = scoreFont.render("Player 1: " + str(player1Score), True, black)
     # screen.blit(player1Score, (10, 10))
@@ -109,7 +109,7 @@ while running:
 
     if player1Score >= 3:
         screen.blit(player1_win_text, ((screenW // 2) - (player1_win_text.get_width() // 2),(screenH // 2) - (player1_win_text.get_height())))
-        pause = True
+        time.sleep(3)
 
     if player2Score >= 3:
         screen.blit(player2_win_text, ((screenW // 2) - (player2_win_text.get_width() // 2),(screenH // 2) - (player2_win_text.get_height())))
