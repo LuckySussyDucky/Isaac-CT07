@@ -1,3 +1,4 @@
+import timr
 import pygame
 from pygame.transform import rotate
 print("Hello from lesson 14_15_16")
