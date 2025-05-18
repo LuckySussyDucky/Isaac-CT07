@@ -113,10 +113,10 @@ while running:
 
     if player2Score >= 3:
         screen.blit(player2_win_text, ((screenW // 2) - (player2_win_text.get_width() // 2),(screenH // 2) - (player2_win_text.get_height())))
-        pause = True
+        time.sleep(3)
 
     if player1Score >= 3 or player2Score >= 3:
-        pause = True
+        time.sleep(3)
         running = False
 
     for event in pygame.event.get():
