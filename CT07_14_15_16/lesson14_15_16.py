@@ -100,6 +100,7 @@ while running:
 
     if player1Score >= 3:
         screen.blit(player1_win_text, (10,10))
+    if player2Score >= 3:
         screen.blit(player2_win_text, (10,10))
 
     for event in pygame.event.get():
