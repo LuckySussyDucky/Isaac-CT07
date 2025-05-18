@@ -116,6 +116,12 @@ while running:
         time.sleep(3)
         running = False
 
+    if pause == True:
+        time.sleep(3)
+        pause == False
+        if player1Score >= 3 or player2Score >= 3:
+            running
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             runnning = False
