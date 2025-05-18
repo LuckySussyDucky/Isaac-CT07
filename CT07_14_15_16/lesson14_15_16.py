@@ -120,6 +120,7 @@ while running:
         pause = False
 
     if player1Score >= 3 or player2Score >= 3:
+        pause = True
         running = False
 
     for event in pygame.event.get():
