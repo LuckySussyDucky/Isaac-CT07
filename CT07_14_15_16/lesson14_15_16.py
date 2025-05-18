@@ -92,7 +92,7 @@ while running:
         print("Player 1 score: " + str(player1Score))
         ballX = screenW // 2
         ballY = screenH // 2
-        pu
+        pause == True
     if ballX <= 0:
         ballDX = ballDX * -1
         player2Score += 1
