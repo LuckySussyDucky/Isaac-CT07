@@ -45,7 +45,7 @@ winner_font = pygame.font.Font(None, 64)
 player1_win_text = winner_font.render("Player 1 won!", True, black)
 player2_win_text = winner_font.render("Player 2 won!", True, black)
 
-pause
+pause = True
 running = True
 
 while running:
