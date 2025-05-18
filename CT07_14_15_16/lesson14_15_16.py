@@ -116,7 +116,7 @@ while running:
         running = False
     if player2Score >= 3:
         screen.blit(player2_win_text, ((screenW // 2) - (player2_win_text.get_width() // 2),(screenH // 2) - (player2_win_text.get_height())))
-        time.sleep(3)
+        pause == True
         running = False
 
     for event in pygame.event.get():
