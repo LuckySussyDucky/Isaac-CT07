@@ -39,7 +39,7 @@ player2Score = 0
 
 # scoreFont = pygame.font.Font(None, 32)
 score_font = pygame.font.Font(None, 32)
-winner_font = pygame
+winner_font = pygame.font.Font(None)
 
 running = True
 while running:
