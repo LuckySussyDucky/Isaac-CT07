@@ -49,9 +49,6 @@ pause = False
 running = True
 
 while running:
-    if pause == True:
-        time.sleep(3)
-        pause == False
     # screen.fill(green)
     screen.blit(BackgroundImage, (0, 0))
     screen.blit(TennisBallImage, (ballX - ballR, ballY - ballR))
