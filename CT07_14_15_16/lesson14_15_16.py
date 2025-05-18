@@ -37,7 +37,8 @@ TennisRacketImage = pygame.image.load("CT07_14_15_16/Tennis Racket.png")
 player1Score = 0
 player2Score = 0 
 
-scoreFont = pygame.font.Font(None, 32)
+# scoreFont = pygame.font.Font(None, 32)
+score_font = pygame.font.Font(None, 32)
 
 running = True
 while running:
@@ -77,14 +78,21 @@ while running:
         paddle2Y = paddle2Y + 1
 
     if ballX >= screenW:
+        ballDX = ballDX * -1
         player1Score += 1
-        ballDX = ballDX * -1
+        print("Player 1 score: " + str(player1Score))
     if ballX <= 0:
-        player2Score += 1
         ballDX = ballDX * -1
+        player2Score += 1
+        print("Player 2S score: " + str(player2Score))
 
-    player1Score = scoreFont.render("Player 1: " + str(player1Score), True, black)
-    screen.blit(player1Score, (10, 10))
+    # player1Score = scoreFont.render("Player 1: " + str(player1Score), True, black)
+    # screen.blit(player1Score, (10, 10))
+
+    player1_score_text = score_font.render("Player 1: " + str(player1Score), True, black)
+    screen.blit(player1_score_text, (10,10))
+    player2_score_text = score_font.render("Player 2: " + str(player2Score), True, black)
+    screen.blit(player2_score_text, (screenW - player2_score_text.get_width() - 10, 10))
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
