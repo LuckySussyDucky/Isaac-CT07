@@ -90,6 +90,8 @@ while running:
         print("Player 1 score: " + str(player1Score))
         ballX = screenW // 2
         ballY = screenH // 2
+        if pause == True:
+             time.sleep(3)
     if ballX <= 0:
         ballDX = ballDX * -1
         player2Score += 1
