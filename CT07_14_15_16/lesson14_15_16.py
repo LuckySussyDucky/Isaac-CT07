@@ -41,6 +41,8 @@ player2Score = 0
 score_font = pygame.font.Font(None, 32)
 winner_font = pygame.font.Font(None, 64)
 
+
+
 running = True
 while running:
     # screen.fill(green)
