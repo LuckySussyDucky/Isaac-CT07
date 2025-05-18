@@ -115,10 +115,6 @@ while running:
         screen.blit(player2_win_text, ((screenW // 2) - (player2_win_text.get_width() // 2),(screenH // 2) - (player2_win_text.get_height())))
         pause = True
 
-    if pause == True:
-        time.sleep(3)
-        pause = False
-
     if player1Score >= 3 or player2Score >= 3:
         pause = True
         running = False
