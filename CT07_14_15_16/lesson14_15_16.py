@@ -51,7 +51,7 @@ running = True
 while running:
     if pause == True:
         time.sleep(3)
-        p
+        pause == False
     # screen.fill(green)
     screen.blit(BackgroundImage, (0, 0))
     screen.blit(TennisBallImage, (ballX - ballR, ballY - ballR))
@@ -102,7 +102,7 @@ while running:
         ballX = screenW // 2
         ballY = screenH // 2
         pause == True
-        pause == False
+
 
     # player1Score = scoreFont.render("Player 1: " + str(player1Score), True, black)
     # screen.blit(player1Score, (10, 10))
