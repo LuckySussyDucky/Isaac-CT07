@@ -1,4 +1,4 @@
-import timr
+import time
 import pygame
 from pygame.transform import rotate
 print("Hello from lesson 14_15_16")
@@ -101,7 +101,7 @@ while running:
 
     if player1Score >= 3:
         screen.blit(player1_win_text, ((screenW // 2) - (player1_win_text.get_width() // 2),(screenH // 2) - (player1_win_text.get_height())))
-        
+        time
         running = False
     if player2Score >= 3:
         screen.blit(player2_win_text, ((screenW // 2) - (player2_win_text.get_width() // 2),(screenH // 2) - (player2_win_text.get_height())))
