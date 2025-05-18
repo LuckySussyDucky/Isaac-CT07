@@ -99,7 +99,7 @@ while running:
     screen.blit(player2_score_text, (screenW - player2_score_text.get_width() - 10, 10))
 
     if player1Score >= 3:
-        screen.blit(player1_win_text, ((screenW // 2),10))
+        screen.blit(player1_win_text, ((screenW // 2) - player,10))
     if player2Score >= 3:
         screen.blit(player2_win_text, (10,10))
 
